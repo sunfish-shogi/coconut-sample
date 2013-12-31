@@ -30,6 +30,8 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER_WITH_ARGS2(OverlayOpen, cocos2d::Action*, cocos2d::Action*);
 		DEFINE_EVENT_EMITTER(OverlayClose);
 	
+		DEFINE_EVENT_EMITTER(SelectGestureTest);
+		
 	private:
 		
 		std::stack<cocos2d::Action*> _actionStack;

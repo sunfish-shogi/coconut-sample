@@ -9,7 +9,6 @@
 #include "OverlayTestView.h"
 #include "../../Utils/WidgetUtils.h"
 #include "../../Utils/ImageUtils.h"
-#include <coconut/utils/LayoutUtils.h>
 #include <coconut/widgets/list_view/SimpleListView.h>
 #include <coconut/utils/LayoutUtils.h>
 

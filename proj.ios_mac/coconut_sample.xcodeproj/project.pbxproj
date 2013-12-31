@@ -19,6 +19,9 @@
 		095638B31871FEE000B66B00 /* TransEndController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638AC1871FEE000B66B00 /* TransEndController.cpp */; };
 		095638B41871FEE000B66B00 /* TransEndModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638AE1871FEE000B66B00 /* TransEndModel.cpp */; };
 		095638B51871FEE000B66B00 /* TransEndView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638B11871FEE000B66B00 /* TransEndView.cpp */; };
+		09827ADB187302AF0043C1C3 /* GestureTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09827AD4187302AF0043C1C3 /* GestureTestController.cpp */; };
+		09827ADC187302AF0043C1C3 /* GestureTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09827AD6187302AF0043C1C3 /* GestureTestModel.cpp */; };
+		09827ADD187302AF0043C1C3 /* GestureTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09827AD9187302AF0043C1C3 /* GestureTestView.cpp */; };
 		09CA0303187167F7008B0C83 /* WidgetUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA0301187167F7008B0C83 /* WidgetUtils.cpp */; };
 		09CA036F18717359008B0C83 /* FallBy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA030718717359008B0C83 /* FallBy.cpp */; };
 		09CA037018717359008B0C83 /* PreferredSizeTo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA030918717359008B0C83 /* PreferredSizeTo.cpp */; };
@@ -29,7 +32,6 @@
 		09CA037518717359008B0C83 /* SlideOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031318717359008B0C83 /* SlideOut.cpp */; };
 		09CA037618717359008B0C83 /* Vibrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031518717359008B0C83 /* Vibrate.cpp */; };
 		09CA037718717359008B0C83 /* FingerGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031A18717359008B0C83 /* FingerGesture.cpp */; };
-		09CA037818717359008B0C83 /* GestureLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031C18717359008B0C83 /* GestureLayer.cpp */; };
 		09CA037918717359008B0C83 /* MvcModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA032418717359008B0C83 /* MvcModule.cpp */; };
 		09CA037A18717359008B0C83 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA032918717359008B0C83 /* Random.cpp */; };
 		09CA037B18717359008B0C83 /* FileAlias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA032C18717359008B0C83 /* FileAlias.cpp */; };
@@ -315,6 +317,13 @@
 		095638B01871FEE000B66B00 /* TransEndModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransEndModule.h; path = TransEnd/TransEndModule.h; sourceTree = "<group>"; };
 		095638B11871FEE000B66B00 /* TransEndView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TransEndView.cpp; path = TransEnd/TransEndView.cpp; sourceTree = "<group>"; };
 		095638B21871FEE000B66B00 /* TransEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransEndView.h; path = TransEnd/TransEndView.h; sourceTree = "<group>"; };
+		09827AD4187302AF0043C1C3 /* GestureTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GestureTestController.cpp; path = Scenes/GestureTest/GestureTestController.cpp; sourceTree = "<group>"; };
+		09827AD5187302AF0043C1C3 /* GestureTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureTestController.h; path = Scenes/GestureTest/GestureTestController.h; sourceTree = "<group>"; };
+		09827AD6187302AF0043C1C3 /* GestureTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GestureTestModel.cpp; path = Scenes/GestureTest/GestureTestModel.cpp; sourceTree = "<group>"; };
+		09827AD7187302AF0043C1C3 /* GestureTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureTestModel.h; path = Scenes/GestureTest/GestureTestModel.h; sourceTree = "<group>"; };
+		09827AD8187302AF0043C1C3 /* GestureTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureTestModule.h; path = Scenes/GestureTest/GestureTestModule.h; sourceTree = "<group>"; };
+		09827AD9187302AF0043C1C3 /* GestureTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GestureTestView.cpp; path = Scenes/GestureTest/GestureTestView.cpp; sourceTree = "<group>"; };
+		09827ADA187302AF0043C1C3 /* GestureTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureTestView.h; path = Scenes/GestureTest/GestureTestView.h; sourceTree = "<group>"; };
 		09CA02FF187167F7008B0C83 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
 		09CA0301187167F7008B0C83 /* WidgetUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetUtils.cpp; sourceTree = "<group>"; };
 		09CA0302187167F7008B0C83 /* WidgetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetUtils.h; sourceTree = "<group>"; };
@@ -339,8 +348,6 @@
 		09CA031818717359008B0C83 /* EventEmitter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EventEmitter.hpp; sourceTree = "<group>"; };
 		09CA031A18717359008B0C83 /* FingerGesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerGesture.cpp; sourceTree = "<group>"; };
 		09CA031B18717359008B0C83 /* FingerGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerGesture.h; sourceTree = "<group>"; };
-		09CA031C18717359008B0C83 /* GestureLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureLayer.cpp; sourceTree = "<group>"; };
-		09CA031D18717359008B0C83 /* GestureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureLayer.h; sourceTree = "<group>"; };
 		09CA031F18717359008B0C83 /* SharedBuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SharedBuffer.hpp; sourceTree = "<group>"; };
 		09CA032018717359008B0C83 /* Module.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Module.hpp; sourceTree = "<group>"; };
 		09CA032118717359008B0C83 /* Modules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Modules.hpp; sourceTree = "<group>"; };
@@ -578,6 +585,7 @@
 				093587EB1871654F00797223 /* Title */,
 				095638A01871FBA500B66B00 /* TransTest */,
 				09CA0394187179E3008B0C83 /* OverlayTest */,
+				09827AC3187301770043C1C3 /* GestureTest */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -624,6 +632,20 @@
 				095638B21871FEE000B66B00 /* TransEndView.h */,
 			);
 			name = TransEnd;
+			sourceTree = "<group>";
+		};
+		09827AC3187301770043C1C3 /* GestureTest */ = {
+			isa = PBXGroup;
+			children = (
+				09827AD4187302AF0043C1C3 /* GestureTestController.cpp */,
+				09827AD5187302AF0043C1C3 /* GestureTestController.h */,
+				09827AD6187302AF0043C1C3 /* GestureTestModel.cpp */,
+				09827AD7187302AF0043C1C3 /* GestureTestModel.h */,
+				09827AD8187302AF0043C1C3 /* GestureTestModule.h */,
+				09827AD9187302AF0043C1C3 /* GestureTestView.cpp */,
+				09827ADA187302AF0043C1C3 /* GestureTestView.h */,
+			);
+			name = GestureTest;
 			sourceTree = "<group>";
 		};
 		09CA02FE187167F7008B0C83 /* Utils */ = {
@@ -690,8 +712,6 @@
 			children = (
 				09CA031A18717359008B0C83 /* FingerGesture.cpp */,
 				09CA031B18717359008B0C83 /* FingerGesture.h */,
-				09CA031C18717359008B0C83 /* GestureLayer.cpp */,
-				09CA031D18717359008B0C83 /* GestureLayer.h */,
 			);
 			path = finger_gestures;
 			sourceTree = "<group>";
@@ -1267,6 +1287,7 @@
 				09CA03B318717DDF008B0C83 /* OverlayTestModel.cpp in Sources */,
 				09CA038E18717359008B0C83 /* ScrollLayer.cpp in Sources */,
 				09CA038018717359008B0C83 /* StringSplitter.cpp in Sources */,
+				09827ADD187302AF0043C1C3 /* GestureTestView.cpp in Sources */,
 				09CA03CD1871954B008B0C83 /* OverlayModel.cpp in Sources */,
 				09CA038B18717359008B0C83 /* CheckBox.cpp in Sources */,
 				09CA037E18717359008B0C83 /* Schedule.cpp in Sources */,
@@ -1282,9 +1303,10 @@
 				09CA037218717359008B0C83 /* ScaleToX.cpp in Sources */,
 				09CA037618717359008B0C83 /* Vibrate.cpp in Sources */,
 				095638A81871FBA500B66B00 /* TransTestController.cpp in Sources */,
+				09827ADC187302AF0043C1C3 /* GestureTestModel.cpp in Sources */,
 				095638B51871FEE000B66B00 /* TransEndView.cpp in Sources */,
 				09CA038A18717359008B0C83 /* ToggleButton.cpp in Sources */,
-				09CA037818717359008B0C83 /* GestureLayer.cpp in Sources */,
+				09827ADB187302AF0043C1C3 /* GestureTestController.cpp in Sources */,
 				09CA037018717359008B0C83 /* PreferredSizeTo.cpp in Sources */,
 				09CA037F18717359008B0C83 /* ScheduleManager.cpp in Sources */,
 				09CA037418717359008B0C83 /* SlideIn.cpp in Sources */,

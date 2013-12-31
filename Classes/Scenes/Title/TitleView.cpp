@@ -49,7 +49,7 @@ namespace coconut_sample {
 		const Size esize(300, 42);
 		SimpleListView* list = SimpleListView::create(ListDirection::VERTICAL, vsize);
 		
-		Button* btnTrans = WidgetUtils::createTTFButton("Scene Trans Test", [this]() {
+		Button* btnTrans = WidgetUtils::createTTFButton("Trans Test", [this]() {
 			emitSelectSceneTransTest();
 		});
 		list->addElement(btnTrans, esize);
@@ -58,6 +58,11 @@ namespace coconut_sample {
 			emitSelectOverlayTest();
 		});
 		list->addElement(btnOverlay, esize);
+		
+		Button* btnGesture = WidgetUtils::createTTFButton("Gesture Test", [this]() {
+			emitSelectGestureTest();
+		});
+		list->addElement(btnGesture, esize);
 		
 		list->setPosition(Point(10, 10));
 		node->addChild(list, 0);

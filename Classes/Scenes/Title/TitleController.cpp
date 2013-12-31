@@ -32,6 +32,9 @@ namespace coconut_sample {
 		_view->onSelectOverlayTest([=]() {
 			GameManager::getInstance()->emitSelectOverlayTest();
 		});
+		_view->onSelectGestureTest([=]() {
+			GameManager::getInstance()->emitSelectGestureTest();
+		});
 	}
 
 }

@@ -13,6 +13,7 @@
 #include "Scenes/TransTest/TransEnd/TransEndModule.h"
 #include "Scenes/OverlayTest/OverlayTestModule.h"
 #include "Scenes/OverlayTest/Overlay/OverlayModule.h"
+#include "Scenes/GestureTest/GestureTestModule.h"
 #include <coconut/MVC.hpp>
 #include <coconut/Actions.hpp>
 #include <coconut/utils/LayoutUtils.h>
@@ -80,6 +81,11 @@ namespace coconut_sample {
 			} else {
 				SceneRestorers::Overlay().close();
 			}
+		});
+		
+		// Title => GestureTest
+		onSelectGestureTest([]() {
+			MvcBuilder().setMainModule<GestureTestModule>().prepare(SceneChangers::FlipR(0.5f));
 		});
 	}
 	

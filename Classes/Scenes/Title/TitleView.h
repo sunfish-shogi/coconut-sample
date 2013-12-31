@@ -23,6 +23,7 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER(SelectClose);
 		DEFINE_EVENT_EMITTER(SelectSceneTransTest);
 		DEFINE_EVENT_EMITTER(SelectOverlayTest);
+		DEFINE_EVENT_EMITTER(SelectGestureTest);
 
 	private:
 
