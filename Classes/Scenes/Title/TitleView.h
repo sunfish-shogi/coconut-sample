@@ -10,6 +10,7 @@
 #define __coconut_sample__TitleView__
 
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
@@ -21,12 +22,17 @@ namespace coconut_sample {
 
 		// event emitters
 		DEFINE_EVENT_EMITTER(SelectClose);
+		DEFINE_EVENT_EMITTER(SelectSlidePuzzle);
 		DEFINE_EVENT_EMITTER(SelectSceneTransTest);
 		DEFINE_EVENT_EMITTER(SelectOverlayTest);
+		DEFINE_EVENT_EMITTER(SelectGestureTest);
+		DEFINE_EVENT_EMITTER(SelectScheduleTest);
+		DEFINE_EVENT_EMITTER(SelectNetworkTest);
 
+		PROPERTY(TitleModel*, _model, Model);
+		
 	private:
 
-		TitleModel* _model;
 		cocos2d::Scene* _scene;
 
 	protected:
@@ -35,9 +41,6 @@ namespace coconut_sample {
 		
 		TitleView();
 		virtual ~TitleView();
-		void setModel(TitleModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

@@ -5,36 +5,60 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>693147FE-B045-488A-852E-EDA249446EBC</string>
+	<string>79C85989-0AFE-4045-84DB-C099073A6B69</string>
 	<key>IDESourceControlProjectName</key>
 	<string>coconut_sample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</key>
-		<string>http://ghe.amb.ca.local/kubo-ryosuke/mahjong-puzzle-battle.git</string>
+		<key>191938C6-6D62-4ED8-99DE-E33DA234AF68</key>
+		<string>https://github.com/sunfish-shogi/coconut.git</string>
+		<key>A67E4FBC-2A72-423B-A983-7C275743D9BA</key>
+		<string>https://github.com/sunfish-shogi/coconut-sample.git</string>
+		<key>AB03D2D5-931E-44E1-A821-B23E773AAFA3</key>
+		<string>https://github.com/cocos2d/cocos2d-x.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>coconut_sample/proj.ios_mac/coconut_sample.xcodeproj/project.xcworkspace</string>
+	<string>proj.ios_mac/coconut_sample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</key>
-		<string>../../../..</string>
+		<key>191938C6-6D62-4ED8-99DE-E33DA234AF68</key>
+		<string>../../../Libraries/coconut</string>
+		<key>A67E4FBC-2A72-423B-A983-7C275743D9BA</key>
+		<string>../../..</string>
+		<key>AB03D2D5-931E-44E1-A821-B23E773AAFA3</key>
+		<string>../../../cocos2d</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://ghe.amb.ca.local/kubo-ryosuke/mahjong-puzzle-battle.git</string>
+	<string>https://github.com/sunfish-shogi/coconut-sample.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</string>
+	<string>A67E4FBC-2A72-423B-A983-7C275743D9BA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</string>
+			<string>191938C6-6D62-4ED8-99DE-E33DA234AF68</string>
 			<key>IDESourceControlWCCName</key>
-			<string>projects</string>
+			<string>coconut</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A67E4FBC-2A72-423B-A983-7C275743D9BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>coconut_sample</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AB03D2D5-931E-44E1-A821-B23E773AAFA3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cocos2d</string>
 		</dict>
 	</array>
 </dict>

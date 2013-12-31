@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__TransTestController__
 #define __coconut_sample__TransTestController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(TransTestView*, _view, View);
+		PROPERTY(TransTestModel*, _model, Model);
 
-		TransTestView* _view;
-		TransTestModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		TransTestController();
 		virtual ~TransTestController();
-		void setView(TransTestView* view) {
-			_view = view;
-		}
-		void setModel(TransTestModel* model) {
-			_model = model;
-		}
 		void init();
 
 	};

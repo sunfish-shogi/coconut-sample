@@ -8,11 +8,15 @@
 
 #include "GameManager.h"
 #include "Definitions/Resolution.h"
+#include "Scenes/SlidePuzzle/SlidePuzzleModule.h"
 #include "Scenes/Title/TitleModule.h"
 #include "Scenes/TransTest/TransTestModule.h"
 #include "Scenes/TransTest/TransEnd/TransEndModule.h"
 #include "Scenes/OverlayTest/OverlayTestModule.h"
 #include "Scenes/OverlayTest/Overlay/OverlayModule.h"
+#include "Scenes/GestureTest/GestureTestModule.h"
+#include "Scenes/ScheduleTest/ScheduleTestModule.h"
+#include "Scenes/NetworkTest/NetworkTestModule.h"
 #include <coconut/MVC.hpp>
 #include <coconut/Actions.hpp>
 #include <coconut/utils/LayoutUtils.h>
@@ -37,12 +41,17 @@ namespace coconut_sample {
 		
 		// Any Scene => Title
 		onSelectBack([]() {
-			MvcBuilder().setMainModule<TitleModule>().prepare(SceneChangers::FlipL(0.5f));
+			MvcBuilder().setMainModule<TitleModule>().prepare(SceneChangers::FlipD(0.5f));
+		});
+		
+		// Title => 15 Puzzle
+		onSelectSlidePuzzle([]() {
+			MvcBuilder().setMainModule<SlidePuzzleModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 		
 		// Title => TransTest
 		onSelectTransTest([]() {
-			MvcBuilder().setMainModule<TransTestModule>().prepare(SceneChangers::FlipR(0.5f));
+			MvcBuilder().setMainModule<TransTestModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 		
 		// TransTest
@@ -55,7 +64,7 @@ namespace coconut_sample {
 		
 		// Title => OverlayTest
 		onSelectOverlayTest([]() {
-			MvcBuilder().setMainModule<OverlayTestModule>().prepare(SceneChangers::FlipR(0.5f));
+			MvcBuilder().setMainModule<OverlayTestModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 		
 		// Show Overlay
@@ -81,6 +90,21 @@ namespace coconut_sample {
 				SceneRestorers::Overlay().close();
 			}
 		});
+		
+		// Title => GestureTest
+		onSelectGestureTest([]() {
+			MvcBuilder().setMainModule<GestureTestModule>().prepare(SceneChangers::FlipU(0.5f));
+		});
+		
+		// Title => ScheduleTest
+		onSelectScheduleTest([]() {
+			MvcBuilder().setMainModule<ScheduleTestModule>().prepare(SceneChangers::FlipU(0.5f));
+		});
+		
+		// Title => NetworkTest
+		onSelectNetworkTest([]() {
+			MvcBuilder().setMainModule<NetworkTestModule>().prepare(SceneChangers::FlipU(0.5f));
+		});
 	}
 	
 	void GameManager::initDisplay() {
@@ -95,11 +119,11 @@ namespace coconut_sample {
 		
 		searchPath.push_back("images/common");
 		searchPath.push_back("images_dev/common");
-		if (frameSize.height > 1536) {
+		if (frameSize.width > 1536) {
 			// iPad Retina
 			contentScale = CONTENT_SCALE_LARGE;
 			searchPath.push_back("images/large");
-		} else if (frameSize.height > 768) {
+		} else if (frameSize.width > 768) {
 			// iPhone Retina, iPad
 			contentScale = CONTENT_SCALE_NORMAL;
 			searchPath.push_back("images/normal");
@@ -117,8 +141,8 @@ namespace coconut_sample {
 		
 		// design resolution
 		const Size& size = Director::getInstance()->getVisibleSize();
-		float width = DESIGN_RESOL_WIDTH(size.width / contentScale);
-		float height = size.height * width / size.width;
+		float height = DESIGN_RESOL_HEIGHT(size.height / contentScale);
+		float width = size.width * height / size.height;
 		eglView->setDesignResolutionSize(width, height, ResolutionPolicy::SHOW_ALL);
 		
 		log("[frame] %f, %f", frameSize.width, frameSize.height);
@@ -128,6 +152,7 @@ namespace coconut_sample {
 		// images
 		ImageManager* imageManager = ImageManager::getInstance();
 		imageManager->addCommonSpriteFrame("ui.plist");
+		imageManager->addTexture("SlidePuzzle", "Puzzle.png");
 		imageManager->prepare();
 		
 		// sounds

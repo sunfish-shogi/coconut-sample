@@ -26,20 +26,20 @@ namespace coconut_sample {
 		_scene = scene;
 		
 		Node* node = Node::create();
-		node->setPosition(LayoutUtils::visibleCenter() - Point(160, 240));
+		node->setPosition(LayoutUtils::visibleCenter() - Point(240, 160));
 		_scene->addChild(node);
 		
 		// background
 		Sprite* bg = Sprite::create("bg.png");
 		bg->setScale(2.0f * ImageUtils::scale4OneSizeImage());
-		bg->setPosition(Point(160, 240));
+		bg->setPosition(Point(240, 160));
 		node->addChild(bg, INT_MIN);
 		
 		// back button
 		Button* btnBack = WidgetUtils::createTTFButton("Back", "orange", [this]() {
 			emitSelectBack();
 		});
-		btnBack->setPosition(Point(160, 240));
+		btnBack->setPosition(Point(240, 160));
 		node->addChild(btnBack, INT_MAX);
 	}
 	

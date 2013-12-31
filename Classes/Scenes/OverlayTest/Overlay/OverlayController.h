@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__OverlayController__
 #define __coconut_sample__OverlayController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(OverlayView*, _view, View);
+		PROPERTY(OverlayModel*, _model, Model);
 
-		OverlayView* _view;
-		OverlayModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		OverlayController();
 		virtual ~OverlayController();
-		void setView(OverlayView* view) {
-			_view = view;
-		}
-		void setModel(OverlayModel* model) {
-			_model = model;
-		}
 		void init();
 
 	};

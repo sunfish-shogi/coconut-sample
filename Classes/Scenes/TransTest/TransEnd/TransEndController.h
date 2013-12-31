@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__TransEndController__
 #define __coconut_sample__TransEndController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(TransEndView*, _view, View);
+		PROPERTY(TransEndModel*, _model, Model);
 
-		TransEndView* _view;
-		TransEndModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		TransEndController();
 		virtual ~TransEndController();
-		void setView(TransEndView* view) {
-			_view = view;
-		}
-		void setModel(TransEndModel* model) {
-			_model = model;
-		}
 		void init();
 
 	};

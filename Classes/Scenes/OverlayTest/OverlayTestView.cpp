@@ -9,7 +9,6 @@
 #include "OverlayTestView.h"
 #include "../../Utils/WidgetUtils.h"
 #include "../../Utils/ImageUtils.h"
-#include <coconut/utils/LayoutUtils.h>
 #include <coconut/widgets/list_view/SimpleListView.h>
 #include <coconut/utils/LayoutUtils.h>
 
@@ -28,25 +27,25 @@ namespace coconut_sample {
 		_scene = scene;
 		
 		Node* node = Node::create();
-		node->setPosition(LayoutUtils::visibleCenter() - Point(160, 240));
+		node->setPosition(LayoutUtils::visibleCenter() - Point(240, 160));
 		_scene->addChild(node);
 		
 		// background
 		Sprite* bg = Sprite::create("bg.png");
 		bg->setScale(2.0f * ImageUtils::scale4OneSizeImage());
-		bg->setPosition(Point(160, 240));
+		bg->setPosition(Point(240, 160));
 		node->addChild(bg, INT_MIN);
 		
 		// back button
 		Button* btnBack = WidgetUtils::createTTFButton("Back", "orange", [this]() {
 			emitSelectBack();
 		});
-		btnBack->setPosition(Point(270, 455));
+		btnBack->setPosition(Point(430, 295));
 		node->addChild(btnBack, INT_MAX);
 		
 		// list view
-		const Size vsize(300, 410);
-		const Size esize(300, 42);
+		const Size vsize(460, 300);
+		const Size esize(460, 42);
 		SimpleListView* list = SimpleListView::create(ListDirection::VERTICAL, vsize);
 		
 		// normal
@@ -55,17 +54,17 @@ namespace coconut_sample {
 		});
 		list->addElement(btnNormal, esize);
 		
-		// slide in (down)
-		Button* btnDown = WidgetUtils::createTTFButton("Slide In Down", [this]() {
-			emitSelectSlideInDown();
+		// slide in (top)
+		Button* btnTop = WidgetUtils::createTTFButton("Slide In Top", [this]() {
+			emitSelectSlideInTop();
 		});
-		list->addElement(btnDown, esize);
+		list->addElement(btnTop, esize);
 		
-		// slide in (up)
-		Button* btnUp = WidgetUtils::createTTFButton("Slide In Up", [this]() {
-			emitSelectSlideInUp();
+		// slide in (bottom)
+		Button* btnBottom = WidgetUtils::createTTFButton("Slide In Bottom", [this]() {
+			emitSelectSlideInBottom();
 		});
-		list->addElement(btnUp, esize);
+		list->addElement(btnBottom, esize);
 		
 		// slide in (left)
 		Button* btnLeft = WidgetUtils::createTTFButton("Slide In Left", [this]() {

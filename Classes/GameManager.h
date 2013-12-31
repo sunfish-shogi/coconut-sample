@@ -22,6 +22,8 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER(Close);
 		DEFINE_EVENT_EMITTER(SelectBack);
 		
+		DEFINE_EVENT_EMITTER(SelectSlidePuzzle);
+		
 		DEFINE_EVENT_EMITTER(SelectTransTest);
 		DEFINE_EVENT_EMITTER_WITH_ARG(DoTransTest, const coconut::SceneChanger&);
 		DEFINE_EVENT_EMITTER(DoneTransTest);
@@ -30,6 +32,12 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER_WITH_ARGS2(OverlayOpen, cocos2d::Action*, cocos2d::Action*);
 		DEFINE_EVENT_EMITTER(OverlayClose);
 	
+		DEFINE_EVENT_EMITTER(SelectGestureTest);
+		
+		DEFINE_EVENT_EMITTER(SelectScheduleTest);
+		
+		DEFINE_EVENT_EMITTER(SelectNetworkTest);
+		
 	private:
 		
 		std::stack<cocos2d::Action*> _actionStack;

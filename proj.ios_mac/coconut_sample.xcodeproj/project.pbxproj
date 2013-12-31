@@ -7,61 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093587B41871645A00797223 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0935870D1871645A00797223 /* AppDelegate.cpp */; };
-		093587B51871645A00797223 /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587111871645A00797223 /* GameManager.cpp */; };
-		093587F31871657000797223 /* TitleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587EC1871657000797223 /* TitleController.cpp */; };
-		093587F41871657000797223 /* TitleModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587EE1871657000797223 /* TitleModel.cpp */; };
-		093587F51871657000797223 /* TitleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587F11871657000797223 /* TitleView.cpp */; };
-		0956389E1871EAD900B66B00 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0956389D1871EAD900B66B00 /* images */; };
-		095638A81871FBA500B66B00 /* TransTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638A11871FBA500B66B00 /* TransTestController.cpp */; };
-		095638A91871FBA500B66B00 /* TransTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638A31871FBA500B66B00 /* TransTestModel.cpp */; };
-		095638AA1871FBA500B66B00 /* TransTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638A61871FBA500B66B00 /* TransTestView.cpp */; };
-		095638B31871FEE000B66B00 /* TransEndController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638AC1871FEE000B66B00 /* TransEndController.cpp */; };
-		095638B41871FEE000B66B00 /* TransEndModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638AE1871FEE000B66B00 /* TransEndModel.cpp */; };
-		095638B51871FEE000B66B00 /* TransEndView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638B11871FEE000B66B00 /* TransEndView.cpp */; };
-		09CA0303187167F7008B0C83 /* WidgetUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA0301187167F7008B0C83 /* WidgetUtils.cpp */; };
-		09CA036F18717359008B0C83 /* FallBy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA030718717359008B0C83 /* FallBy.cpp */; };
-		09CA037018717359008B0C83 /* PreferredSizeTo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA030918717359008B0C83 /* PreferredSizeTo.cpp */; };
-		09CA037118717359008B0C83 /* Rotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA030B18717359008B0C83 /* Rotate.cpp */; };
-		09CA037218717359008B0C83 /* ScaleToX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA030D18717359008B0C83 /* ScaleToX.cpp */; };
-		09CA037318717359008B0C83 /* ScaleToY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA030F18717359008B0C83 /* ScaleToY.cpp */; };
-		09CA037418717359008B0C83 /* SlideIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031118717359008B0C83 /* SlideIn.cpp */; };
-		09CA037518717359008B0C83 /* SlideOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031318717359008B0C83 /* SlideOut.cpp */; };
-		09CA037618717359008B0C83 /* Vibrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031518717359008B0C83 /* Vibrate.cpp */; };
-		09CA037718717359008B0C83 /* FingerGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031A18717359008B0C83 /* FingerGesture.cpp */; };
-		09CA037818717359008B0C83 /* GestureLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA031C18717359008B0C83 /* GestureLayer.cpp */; };
-		09CA037918717359008B0C83 /* MvcModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA032418717359008B0C83 /* MvcModule.cpp */; };
-		09CA037A18717359008B0C83 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA032918717359008B0C83 /* Random.cpp */; };
-		09CA037B18717359008B0C83 /* FileAlias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA032C18717359008B0C83 /* FileAlias.cpp */; };
-		09CA037C18717359008B0C83 /* ImageManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA032E18717359008B0C83 /* ImageManager.cpp */; };
-		09CA037D18717359008B0C83 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA033118717359008B0C83 /* SoundManager.cpp */; };
-		09CA037E18717359008B0C83 /* Schedule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA033618717359008B0C83 /* Schedule.cpp */; };
-		09CA037F18717359008B0C83 /* ScheduleManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA033818717359008B0C83 /* ScheduleManager.cpp */; };
-		09CA038018717359008B0C83 /* StringSplitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA033C18717359008B0C83 /* StringSplitter.cpp */; };
-		09CA038118717359008B0C83 /* ControlUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA034018717359008B0C83 /* ControlUtils.cpp */; };
-		09CA038218717359008B0C83 /* GeomUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA034218717359008B0C83 /* GeomUtils.cpp */; };
-		09CA038318717359008B0C83 /* HttpUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA034418717359008B0C83 /* HttpUtils.cpp */; };
-		09CA038418717359008B0C83 /* LayoutUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA034618717359008B0C83 /* LayoutUtils.cpp */; };
-		09CA038518717359008B0C83 /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA034918717359008B0C83 /* StringUtils.cpp */; };
-		09CA038618717359008B0C83 /* BaseButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA034E18717359008B0C83 /* BaseButton.cpp */; };
-		09CA038718717359008B0C83 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA035018717359008B0C83 /* Button.cpp */; };
-		09CA038818717359008B0C83 /* MotionButtonSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA035318717359008B0C83 /* MotionButtonSprite.cpp */; };
-		09CA038918717359008B0C83 /* SimpleButtonSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA035518717359008B0C83 /* SimpleButtonSprite.cpp */; };
-		09CA038A18717359008B0C83 /* ToggleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA035718717359008B0C83 /* ToggleButton.cpp */; };
-		09CA038B18717359008B0C83 /* CheckBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA035A18717359008B0C83 /* CheckBox.cpp */; };
-		09CA038C18717359008B0C83 /* BaseListView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA035D18717359008B0C83 /* BaseListView.cpp */; };
-		09CA038D18717359008B0C83 /* SimpleListView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA035F18717359008B0C83 /* SimpleListView.cpp */; };
-		09CA038E18717359008B0C83 /* ScrollLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA036218717359008B0C83 /* ScrollLayer.cpp */; };
-		09CA038F18717359008B0C83 /* EnlargedSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA036518717359008B0C83 /* EnlargedSlider.cpp */; };
-		09CA039018717359008B0C83 /* StencilSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA036818717359008B0C83 /* StencilSlider.cpp */; };
-		09CA039118717359008B0C83 /* BaseTileView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA036B18717359008B0C83 /* BaseTileView.cpp */; };
-		09CA039218717359008B0C83 /* SimpleTileView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA036D18717359008B0C83 /* SimpleTileView.cpp */; };
-		09CA03B218717DDF008B0C83 /* OverlayTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03AB18717DDF008B0C83 /* OverlayTestController.cpp */; };
-		09CA03B318717DDF008B0C83 /* OverlayTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03AD18717DDF008B0C83 /* OverlayTestModel.cpp */; };
-		09CA03B418717DDF008B0C83 /* OverlayTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03B018717DDF008B0C83 /* OverlayTestView.cpp */; };
-		09CA03CC1871954B008B0C83 /* OverlayController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03C51871954B008B0C83 /* OverlayController.cpp */; };
-		09CA03CD1871954B008B0C83 /* OverlayModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03C71871954B008B0C83 /* OverlayModel.cpp */; };
-		09CA03CE1871954B008B0C83 /* OverlayView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03CA1871954B008B0C83 /* OverlayView.cpp */; };
+		09053B1818819D74002B8725 /* NetworkTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09053B1118819D74002B8725 /* NetworkTestController.cpp */; };
+		09053B1918819D74002B8725 /* NetworkTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09053B1318819D74002B8725 /* NetworkTestModel.cpp */; };
+		09053B1A18819D74002B8725 /* NetworkTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09053B1618819D74002B8725 /* NetworkTestView.cpp */; };
+		093938E6187E6AC700433FAA /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393893187E6AC600433FAA /* GameManager.cpp */; };
+		093938E7187E6AC700433FAA /* GestureTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393897187E6AC600433FAA /* GestureTestController.cpp */; };
+		093938E8187E6AC700433FAA /* GestureTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393899187E6AC600433FAA /* GestureTestModel.cpp */; };
+		093938E9187E6AC700433FAA /* GestureTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939389C187E6AC600433FAA /* GestureTestView.cpp */; };
+		093938ED187E6AC700433FAA /* OverlayController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938A8187E6AC700433FAA /* OverlayController.cpp */; };
+		093938EE187E6AC700433FAA /* OverlayModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938AA187E6AC700433FAA /* OverlayModel.cpp */; };
+		093938EF187E6AC700433FAA /* OverlayView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938AD187E6AC700433FAA /* OverlayView.cpp */; };
+		093938F0187E6AC700433FAA /* OverlayTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938AF187E6AC700433FAA /* OverlayTestController.cpp */; };
+		093938F1187E6AC700433FAA /* OverlayTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938B1187E6AC700433FAA /* OverlayTestModel.cpp */; };
+		093938F2187E6AC700433FAA /* OverlayTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938B4187E6AC700433FAA /* OverlayTestView.cpp */; };
+		093938F3187E6AC700433FAA /* ScheduleTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938B7187E6AC700433FAA /* ScheduleTestController.cpp */; };
+		093938F4187E6AC700433FAA /* ScheduleTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938B9187E6AC700433FAA /* ScheduleTestModel.cpp */; };
+		093938F5187E6AC700433FAA /* ScheduleTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938BC187E6AC700433FAA /* ScheduleTestView.cpp */; };
+		093938F6187E6AC700433FAA /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938C1187E6AC700433FAA /* Position.cpp */; };
+		093938F7187E6AC700433FAA /* SlidePuzzleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938C3187E6AC700433FAA /* SlidePuzzleController.cpp */; };
+		093938F8187E6AC700433FAA /* SlidePuzzleModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938C5187E6AC700433FAA /* SlidePuzzleModel.cpp */; };
+		093938F9187E6AC700433FAA /* SlidePuzzleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938C8187E6AC700433FAA /* SlidePuzzleView.cpp */; };
+		093938FA187E6AC700433FAA /* TitleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938CB187E6AC700433FAA /* TitleController.cpp */; };
+		093938FB187E6AC700433FAA /* TitleModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938CD187E6AC700433FAA /* TitleModel.cpp */; };
+		093938FC187E6AC700433FAA /* TitleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938D0187E6AC700433FAA /* TitleView.cpp */; };
+		093938FD187E6AC700433FAA /* TransEndController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938D4187E6AC700433FAA /* TransEndController.cpp */; };
+		093938FE187E6AC700433FAA /* TransEndModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938D6187E6AC700433FAA /* TransEndModel.cpp */; };
+		093938FF187E6AC700433FAA /* TransEndView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938D9187E6AC700433FAA /* TransEndView.cpp */; };
+		09393900187E6AC700433FAA /* TransTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938DB187E6AC700433FAA /* TransTestController.cpp */; };
+		09393901187E6AC700433FAA /* TransTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938DD187E6AC700433FAA /* TransTestModel.cpp */; };
+		09393902187E6AC700433FAA /* TransTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938E0187E6AC700433FAA /* TransTestView.cpp */; };
+		09393903187E6AC700433FAA /* WidgetUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938E4187E6AC700433FAA /* WidgetUtils.cpp */; };
+		09393905187E6AD900433FAA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 09393904187E6AD900433FAA /* images */; };
+		0939398D187E6BCF00433FAA /* FallBy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939390C187E6BCE00433FAA /* FallBy.cpp */; };
+		0939398E187E6BCF00433FAA /* PreferredSizeTo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939390E187E6BCE00433FAA /* PreferredSizeTo.cpp */; };
+		0939398F187E6BCF00433FAA /* Rotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393910187E6BCE00433FAA /* Rotate.cpp */; };
+		09393990187E6BCF00433FAA /* ScaleToX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393912187E6BCE00433FAA /* ScaleToX.cpp */; };
+		09393991187E6BCF00433FAA /* ScaleToY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393914187E6BCE00433FAA /* ScaleToY.cpp */; };
+		09393992187E6BCF00433FAA /* SlideIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393916187E6BCE00433FAA /* SlideIn.cpp */; };
+		09393993187E6BCF00433FAA /* SlideOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393918187E6BCE00433FAA /* SlideOut.cpp */; };
+		09393994187E6BCF00433FAA /* Vibrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939391A187E6BCE00433FAA /* Vibrate.cpp */; };
+		09393995187E6BCF00433FAA /* FingerGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939391F187E6BCE00433FAA /* FingerGesture.cpp */; };
+		09393996187E6BCF00433FAA /* MvcModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393928187E6BCE00433FAA /* MvcModule.cpp */; };
+		09393997187E6BCF00433FAA /* HttpManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939392D187E6BCE00433FAA /* HttpManager.cpp */; };
+		09393998187E6BCF00433FAA /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393932187E6BCE00433FAA /* Random.cpp */; };
+		09393999187E6BCF00433FAA /* FileAlias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393935187E6BCE00433FAA /* FileAlias.cpp */; };
+		0939399A187E6BCF00433FAA /* ImageManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393937187E6BCE00433FAA /* ImageManager.cpp */; };
+		0939399B187E6BCF00433FAA /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939393A187E6BCE00433FAA /* SoundManager.cpp */; };
+		0939399C187E6BCF00433FAA /* Schedule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939393F187E6BCE00433FAA /* Schedule.cpp */; };
+		0939399D187E6BCF00433FAA /* ScheduleManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393941187E6BCE00433FAA /* ScheduleManager.cpp */; };
+		0939399E187E6BCF00433FAA /* StringSplitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393945187E6BCE00433FAA /* StringSplitter.cpp */; };
+		0939399F187E6BCF00433FAA /* ControlUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393948187E6BCE00433FAA /* ControlUtils.cpp */; };
+		093939A0187E6BCF00433FAA /* GeomUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939394A187E6BCE00433FAA /* GeomUtils.cpp */; };
+		093939A1187E6BCF00433FAA /* HttpUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939394C187E6BCE00433FAA /* HttpUtils.cpp */; };
+		093939A2187E6BCF00433FAA /* LayoutUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939394E187E6BCE00433FAA /* LayoutUtils.cpp */; };
+		093939A3187E6BCF00433FAA /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393951187E6BCE00433FAA /* StringUtils.cpp */; };
+		093939A4187E6BCF00433FAA /* BaseButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393956187E6BCE00433FAA /* BaseButton.cpp */; };
+		093939A5187E6BCF00433FAA /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393958187E6BCE00433FAA /* Button.cpp */; };
+		093939A6187E6BCF00433FAA /* MotionButtonSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939395B187E6BCE00433FAA /* MotionButtonSprite.cpp */; };
+		093939A7187E6BCF00433FAA /* SimpleButtonSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939395D187E6BCE00433FAA /* SimpleButtonSprite.cpp */; };
+		093939A8187E6BCF00433FAA /* ToggleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939395F187E6BCE00433FAA /* ToggleButton.cpp */; };
+		093939A9187E6BCF00433FAA /* CheckBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393962187E6BCF00433FAA /* CheckBox.cpp */; };
+		093939AA187E6BCF00433FAA /* BaseListView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393965187E6BCF00433FAA /* BaseListView.cpp */; };
+		093939AB187E6BCF00433FAA /* SimpleListView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393967187E6BCF00433FAA /* SimpleListView.cpp */; };
+		093939AC187E6BCF00433FAA /* ScrollLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939396A187E6BCF00433FAA /* ScrollLayer.cpp */; };
+		093939AD187E6BCF00433FAA /* EnlargedSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939396D187E6BCF00433FAA /* EnlargedSlider.cpp */; };
+		093939AE187E6BCF00433FAA /* StencilSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393970187E6BCF00433FAA /* StencilSlider.cpp */; };
+		093939AF187E6BCF00433FAA /* BaseTileView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393973187E6BCF00433FAA /* BaseTileView.cpp */; };
+		093939B0187E6BCF00433FAA /* SimpleTileView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393975187E6BCF00433FAA /* SimpleTileView.cpp */; };
 		1AC6FB1F180E996B004C840B /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFF180E9839004C840B /* libbox2d Mac.a */; };
 		1AC6FB20180E996B004C840B /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFD180E9839004C840B /* libchipmunk Mac.a */; };
 		1AC6FB21180E996B004C840B /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2dx Mac.a */; };
@@ -72,6 +84,7 @@
 		1AC6FB30180E99EB004C840B /* libcocos2dx iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2dx iOS.a */; };
 		1AC6FB31180E99EB004C840B /* libcocos2dx-extensions iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB09180E9839004C840B /* libcocos2dx-extensions iOS.a */; };
 		1AC6FB32180E99EB004C840B /* libCocosDenshion iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB0F180E9839004C840B /* libCocosDenshion iOS.a */; };
+		1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
@@ -82,6 +95,7 @@
 		503AE10517EB98FF00D1A890 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503AE10317EB98FF00D1A890 /* main.cpp */; };
 		503AE11217EB99EE00D1A890 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11117EB99EE00D1A890 /* libcurl.dylib */; };
 		503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11A17EB9C5A00D1A890 /* IOKit.framework */; };
+		5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */; };
 		5087E76317EB910900C73F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5087E76517EB910900C73F5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		5087E76717EB910900C73F5D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -288,143 +302,177 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0935870D1871645A00797223 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
-		0935870E1871645A00797223 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		093587101871645A00797223 /* Resolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resolution.h; sourceTree = "<group>"; };
-		093587111871645A00797223 /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameManager.cpp; sourceTree = "<group>"; };
-		093587121871645A00797223 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
-		093587EC1871657000797223 /* TitleController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleController.cpp; path = Scenes/Title/TitleController.cpp; sourceTree = "<group>"; };
-		093587ED1871657000797223 /* TitleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleController.h; path = Scenes/Title/TitleController.h; sourceTree = "<group>"; };
-		093587EE1871657000797223 /* TitleModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleModel.cpp; path = Scenes/Title/TitleModel.cpp; sourceTree = "<group>"; };
-		093587EF1871657000797223 /* TitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleModel.h; path = Scenes/Title/TitleModel.h; sourceTree = "<group>"; };
-		093587F01871657000797223 /* TitleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleModule.h; path = Scenes/Title/TitleModule.h; sourceTree = "<group>"; };
-		093587F11871657000797223 /* TitleView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleView.cpp; path = Scenes/Title/TitleView.cpp; sourceTree = "<group>"; };
-		093587F21871657000797223 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleView.h; path = Scenes/Title/TitleView.h; sourceTree = "<group>"; };
-		0956389D1871EAD900B66B00 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		095638A11871FBA500B66B00 /* TransTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestController.cpp; sourceTree = "<group>"; };
-		095638A21871FBA500B66B00 /* TransTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestController.h; sourceTree = "<group>"; };
-		095638A31871FBA500B66B00 /* TransTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestModel.cpp; sourceTree = "<group>"; };
-		095638A41871FBA500B66B00 /* TransTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestModel.h; sourceTree = "<group>"; };
-		095638A51871FBA500B66B00 /* TransTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestModule.h; sourceTree = "<group>"; };
-		095638A61871FBA500B66B00 /* TransTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestView.cpp; sourceTree = "<group>"; };
-		095638A71871FBA500B66B00 /* TransTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestView.h; sourceTree = "<group>"; };
-		095638AC1871FEE000B66B00 /* TransEndController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TransEndController.cpp; path = TransEnd/TransEndController.cpp; sourceTree = "<group>"; };
-		095638AD1871FEE000B66B00 /* TransEndController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransEndController.h; path = TransEnd/TransEndController.h; sourceTree = "<group>"; };
-		095638AE1871FEE000B66B00 /* TransEndModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TransEndModel.cpp; path = TransEnd/TransEndModel.cpp; sourceTree = "<group>"; };
-		095638AF1871FEE000B66B00 /* TransEndModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransEndModel.h; path = TransEnd/TransEndModel.h; sourceTree = "<group>"; };
-		095638B01871FEE000B66B00 /* TransEndModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransEndModule.h; path = TransEnd/TransEndModule.h; sourceTree = "<group>"; };
-		095638B11871FEE000B66B00 /* TransEndView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TransEndView.cpp; path = TransEnd/TransEndView.cpp; sourceTree = "<group>"; };
-		095638B21871FEE000B66B00 /* TransEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransEndView.h; path = TransEnd/TransEndView.h; sourceTree = "<group>"; };
-		09CA02FF187167F7008B0C83 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
-		09CA0301187167F7008B0C83 /* WidgetUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetUtils.cpp; sourceTree = "<group>"; };
-		09CA0302187167F7008B0C83 /* WidgetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetUtils.h; sourceTree = "<group>"; };
-		09CA030618717359008B0C83 /* EaseBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBuilder.h; sourceTree = "<group>"; };
-		09CA030718717359008B0C83 /* FallBy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FallBy.cpp; sourceTree = "<group>"; };
-		09CA030818717359008B0C83 /* FallBy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallBy.h; sourceTree = "<group>"; };
-		09CA030918717359008B0C83 /* PreferredSizeTo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreferredSizeTo.cpp; sourceTree = "<group>"; };
-		09CA030A18717359008B0C83 /* PreferredSizeTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferredSizeTo.h; sourceTree = "<group>"; };
-		09CA030B18717359008B0C83 /* Rotate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rotate.cpp; sourceTree = "<group>"; };
-		09CA030C18717359008B0C83 /* Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rotate.h; sourceTree = "<group>"; };
-		09CA030D18717359008B0C83 /* ScaleToX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScaleToX.cpp; sourceTree = "<group>"; };
-		09CA030E18717359008B0C83 /* ScaleToX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleToX.h; sourceTree = "<group>"; };
-		09CA030F18717359008B0C83 /* ScaleToY.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScaleToY.cpp; sourceTree = "<group>"; };
-		09CA031018717359008B0C83 /* ScaleToY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleToY.h; sourceTree = "<group>"; };
-		09CA031118717359008B0C83 /* SlideIn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlideIn.cpp; sourceTree = "<group>"; };
-		09CA031218717359008B0C83 /* SlideIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideIn.h; sourceTree = "<group>"; };
-		09CA031318717359008B0C83 /* SlideOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlideOut.cpp; sourceTree = "<group>"; };
-		09CA031418717359008B0C83 /* SlideOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideOut.h; sourceTree = "<group>"; };
-		09CA031518717359008B0C83 /* Vibrate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vibrate.cpp; sourceTree = "<group>"; };
-		09CA031618717359008B0C83 /* Vibrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vibrate.h; sourceTree = "<group>"; };
-		09CA031718717359008B0C83 /* Actions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Actions.hpp; sourceTree = "<group>"; };
-		09CA031818717359008B0C83 /* EventEmitter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EventEmitter.hpp; sourceTree = "<group>"; };
-		09CA031A18717359008B0C83 /* FingerGesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerGesture.cpp; sourceTree = "<group>"; };
-		09CA031B18717359008B0C83 /* FingerGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerGesture.h; sourceTree = "<group>"; };
-		09CA031C18717359008B0C83 /* GestureLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureLayer.cpp; sourceTree = "<group>"; };
-		09CA031D18717359008B0C83 /* GestureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureLayer.h; sourceTree = "<group>"; };
-		09CA031F18717359008B0C83 /* SharedBuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SharedBuffer.hpp; sourceTree = "<group>"; };
-		09CA032018717359008B0C83 /* Module.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Module.hpp; sourceTree = "<group>"; };
-		09CA032118717359008B0C83 /* Modules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Modules.hpp; sourceTree = "<group>"; };
-		09CA032318717359008B0C83 /* MvcBuilder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MvcBuilder.hpp; sourceTree = "<group>"; };
-		09CA032418717359008B0C83 /* MvcModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MvcModule.cpp; sourceTree = "<group>"; };
-		09CA032518717359008B0C83 /* MvcModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvcModule.h; sourceTree = "<group>"; };
-		09CA032618717359008B0C83 /* MVC.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MVC.hpp; sourceTree = "<group>"; };
-		09CA032718717359008B0C83 /* ObjectContainer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjectContainer.hpp; sourceTree = "<group>"; };
-		09CA032918717359008B0C83 /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
-		09CA032A18717359008B0C83 /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
-		09CA032C18717359008B0C83 /* FileAlias.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileAlias.cpp; sourceTree = "<group>"; };
-		09CA032D18717359008B0C83 /* FileAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileAlias.h; sourceTree = "<group>"; };
-		09CA032E18717359008B0C83 /* ImageManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageManager.cpp; sourceTree = "<group>"; };
-		09CA032F18717359008B0C83 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
-		09CA033018717359008B0C83 /* ResouceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResouceLoader.h; sourceTree = "<group>"; };
-		09CA033118717359008B0C83 /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
-		09CA033218717359008B0C83 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
-		09CA033418717359008B0C83 /* SceneChanger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneChanger.hpp; sourceTree = "<group>"; };
-		09CA033618717359008B0C83 /* Schedule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Schedule.cpp; sourceTree = "<group>"; };
-		09CA033718717359008B0C83 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
-		09CA033818717359008B0C83 /* ScheduleManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScheduleManager.cpp; sourceTree = "<group>"; };
-		09CA033918717359008B0C83 /* ScheduleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleManager.h; sourceTree = "<group>"; };
-		09CA033A18717359008B0C83 /* Singleton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Singleton.hpp; sourceTree = "<group>"; };
-		09CA033C18717359008B0C83 /* StringSplitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringSplitter.cpp; sourceTree = "<group>"; };
-		09CA033D18717359008B0C83 /* StringSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSplitter.h; sourceTree = "<group>"; };
-		09CA033F18717359008B0C83 /* ArrayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayUtils.h; sourceTree = "<group>"; };
-		09CA034018717359008B0C83 /* ControlUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlUtils.cpp; sourceTree = "<group>"; };
-		09CA034118717359008B0C83 /* ControlUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlUtils.h; sourceTree = "<group>"; };
-		09CA034218717359008B0C83 /* GeomUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeomUtils.cpp; sourceTree = "<group>"; };
-		09CA034318717359008B0C83 /* GeomUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeomUtils.h; sourceTree = "<group>"; };
-		09CA034418717359008B0C83 /* HttpUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpUtils.cpp; sourceTree = "<group>"; };
-		09CA034518717359008B0C83 /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtils.h; sourceTree = "<group>"; };
-		09CA034618717359008B0C83 /* LayoutUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayoutUtils.cpp; sourceTree = "<group>"; };
-		09CA034718717359008B0C83 /* LayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutUtils.h; sourceTree = "<group>"; };
-		09CA034818717359008B0C83 /* NodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeUtils.h; sourceTree = "<group>"; };
-		09CA034918717359008B0C83 /* StringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtils.cpp; sourceTree = "<group>"; };
-		09CA034A18717359008B0C83 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
-		09CA034B18717359008B0C83 /* TimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtils.h; sourceTree = "<group>"; };
-		09CA034E18717359008B0C83 /* BaseButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseButton.cpp; sourceTree = "<group>"; };
-		09CA034F18717359008B0C83 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
-		09CA035018717359008B0C83 /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
-		09CA035118717359008B0C83 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
-		09CA035218717359008B0C83 /* ButtonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonSprite.h; sourceTree = "<group>"; };
-		09CA035318717359008B0C83 /* MotionButtonSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MotionButtonSprite.cpp; sourceTree = "<group>"; };
-		09CA035418717359008B0C83 /* MotionButtonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionButtonSprite.h; sourceTree = "<group>"; };
-		09CA035518717359008B0C83 /* SimpleButtonSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleButtonSprite.cpp; sourceTree = "<group>"; };
-		09CA035618717359008B0C83 /* SimpleButtonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleButtonSprite.h; sourceTree = "<group>"; };
-		09CA035718717359008B0C83 /* ToggleButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ToggleButton.cpp; sourceTree = "<group>"; };
-		09CA035818717359008B0C83 /* ToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleButton.h; sourceTree = "<group>"; };
-		09CA035A18717359008B0C83 /* CheckBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CheckBox.cpp; sourceTree = "<group>"; };
-		09CA035B18717359008B0C83 /* CheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
-		09CA035D18717359008B0C83 /* BaseListView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseListView.cpp; sourceTree = "<group>"; };
-		09CA035E18717359008B0C83 /* BaseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListView.h; sourceTree = "<group>"; };
-		09CA035F18717359008B0C83 /* SimpleListView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleListView.cpp; sourceTree = "<group>"; };
-		09CA036018717359008B0C83 /* SimpleListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListView.h; sourceTree = "<group>"; };
-		09CA036218717359008B0C83 /* ScrollLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrollLayer.cpp; sourceTree = "<group>"; };
-		09CA036318717359008B0C83 /* ScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
-		09CA036518717359008B0C83 /* EnlargedSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnlargedSlider.cpp; sourceTree = "<group>"; };
-		09CA036618717359008B0C83 /* EnlargedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargedSlider.h; sourceTree = "<group>"; };
-		09CA036718717359008B0C83 /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
-		09CA036818717359008B0C83 /* StencilSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StencilSlider.cpp; sourceTree = "<group>"; };
-		09CA036918717359008B0C83 /* StencilSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StencilSlider.h; sourceTree = "<group>"; };
-		09CA036B18717359008B0C83 /* BaseTileView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTileView.cpp; sourceTree = "<group>"; };
-		09CA036C18717359008B0C83 /* BaseTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTileView.h; sourceTree = "<group>"; };
-		09CA036D18717359008B0C83 /* SimpleTileView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleTileView.cpp; sourceTree = "<group>"; };
-		09CA036E18717359008B0C83 /* SimpleTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTileView.h; sourceTree = "<group>"; };
-		09CA03AB18717DDF008B0C83 /* OverlayTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OverlayTestController.cpp; path = Scenes/OverlayTest/OverlayTestController.cpp; sourceTree = "<group>"; };
-		09CA03AC18717DDF008B0C83 /* OverlayTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayTestController.h; path = Scenes/OverlayTest/OverlayTestController.h; sourceTree = "<group>"; };
-		09CA03AD18717DDF008B0C83 /* OverlayTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OverlayTestModel.cpp; path = Scenes/OverlayTest/OverlayTestModel.cpp; sourceTree = "<group>"; };
-		09CA03AE18717DDF008B0C83 /* OverlayTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayTestModel.h; path = Scenes/OverlayTest/OverlayTestModel.h; sourceTree = "<group>"; };
-		09CA03AF18717DDF008B0C83 /* OverlayTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayTestModule.h; path = Scenes/OverlayTest/OverlayTestModule.h; sourceTree = "<group>"; };
-		09CA03B018717DDF008B0C83 /* OverlayTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OverlayTestView.cpp; path = Scenes/OverlayTest/OverlayTestView.cpp; sourceTree = "<group>"; };
-		09CA03B118717DDF008B0C83 /* OverlayTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayTestView.h; path = Scenes/OverlayTest/OverlayTestView.h; sourceTree = "<group>"; };
-		09CA03C51871954B008B0C83 /* OverlayController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OverlayController.cpp; path = Scenes/OverlayTest/Overlay/OverlayController.cpp; sourceTree = "<group>"; };
-		09CA03C61871954B008B0C83 /* OverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayController.h; path = Scenes/OverlayTest/Overlay/OverlayController.h; sourceTree = "<group>"; };
-		09CA03C71871954B008B0C83 /* OverlayModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OverlayModel.cpp; path = Scenes/OverlayTest/Overlay/OverlayModel.cpp; sourceTree = "<group>"; };
-		09CA03C81871954B008B0C83 /* OverlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayModel.h; path = Scenes/OverlayTest/Overlay/OverlayModel.h; sourceTree = "<group>"; };
-		09CA03C91871954B008B0C83 /* OverlayModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayModule.h; path = Scenes/OverlayTest/Overlay/OverlayModule.h; sourceTree = "<group>"; };
-		09CA03CA1871954B008B0C83 /* OverlayView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OverlayView.cpp; path = Scenes/OverlayTest/Overlay/OverlayView.cpp; sourceTree = "<group>"; };
-		09CA03CB1871954B008B0C83 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = Scenes/OverlayTest/Overlay/OverlayView.h; sourceTree = "<group>"; };
-		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../../../build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
+		09053B1118819D74002B8725 /* NetworkTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestController.cpp; sourceTree = "<group>"; };
+		09053B1218819D74002B8725 /* NetworkTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestController.h; sourceTree = "<group>"; };
+		09053B1318819D74002B8725 /* NetworkTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestModel.cpp; sourceTree = "<group>"; };
+		09053B1418819D74002B8725 /* NetworkTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestModel.h; sourceTree = "<group>"; };
+		09053B1518819D74002B8725 /* NetworkTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestModule.h; sourceTree = "<group>"; };
+		09053B1618819D74002B8725 /* NetworkTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestView.cpp; sourceTree = "<group>"; };
+		09053B1718819D74002B8725 /* NetworkTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestView.h; sourceTree = "<group>"; };
+		09393892187E6AC600433FAA /* Resolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resolution.h; sourceTree = "<group>"; };
+		09393893187E6AC600433FAA /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameManager.cpp; path = ../Classes/GameManager.cpp; sourceTree = "<group>"; };
+		09393894187E6AC600433FAA /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = ../Classes/GameManager.h; sourceTree = "<group>"; };
+		09393897187E6AC600433FAA /* GestureTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureTestController.cpp; sourceTree = "<group>"; };
+		09393898187E6AC600433FAA /* GestureTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTestController.h; sourceTree = "<group>"; };
+		09393899187E6AC600433FAA /* GestureTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureTestModel.cpp; sourceTree = "<group>"; };
+		0939389A187E6AC600433FAA /* GestureTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTestModel.h; sourceTree = "<group>"; };
+		0939389B187E6AC600433FAA /* GestureTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTestModule.h; sourceTree = "<group>"; };
+		0939389C187E6AC600433FAA /* GestureTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureTestView.cpp; sourceTree = "<group>"; };
+		0939389D187E6AC600433FAA /* GestureTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTestView.h; sourceTree = "<group>"; };
+		093938A8187E6AC700433FAA /* OverlayController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayController.cpp; sourceTree = "<group>"; };
+		093938A9187E6AC700433FAA /* OverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayController.h; sourceTree = "<group>"; };
+		093938AA187E6AC700433FAA /* OverlayModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayModel.cpp; sourceTree = "<group>"; };
+		093938AB187E6AC700433FAA /* OverlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayModel.h; sourceTree = "<group>"; };
+		093938AC187E6AC700433FAA /* OverlayModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayModule.h; sourceTree = "<group>"; };
+		093938AD187E6AC700433FAA /* OverlayView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayView.cpp; sourceTree = "<group>"; };
+		093938AE187E6AC700433FAA /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		093938AF187E6AC700433FAA /* OverlayTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayTestController.cpp; sourceTree = "<group>"; };
+		093938B0187E6AC700433FAA /* OverlayTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayTestController.h; sourceTree = "<group>"; };
+		093938B1187E6AC700433FAA /* OverlayTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayTestModel.cpp; sourceTree = "<group>"; };
+		093938B2187E6AC700433FAA /* OverlayTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayTestModel.h; sourceTree = "<group>"; };
+		093938B3187E6AC700433FAA /* OverlayTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayTestModule.h; sourceTree = "<group>"; };
+		093938B4187E6AC700433FAA /* OverlayTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayTestView.cpp; sourceTree = "<group>"; };
+		093938B5187E6AC700433FAA /* OverlayTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayTestView.h; sourceTree = "<group>"; };
+		093938B7187E6AC700433FAA /* ScheduleTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScheduleTestController.cpp; sourceTree = "<group>"; };
+		093938B8187E6AC700433FAA /* ScheduleTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTestController.h; sourceTree = "<group>"; };
+		093938B9187E6AC700433FAA /* ScheduleTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScheduleTestModel.cpp; sourceTree = "<group>"; };
+		093938BA187E6AC700433FAA /* ScheduleTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTestModel.h; sourceTree = "<group>"; };
+		093938BB187E6AC700433FAA /* ScheduleTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTestModule.h; sourceTree = "<group>"; };
+		093938BC187E6AC700433FAA /* ScheduleTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScheduleTestView.cpp; sourceTree = "<group>"; };
+		093938BD187E6AC700433FAA /* ScheduleTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTestView.h; sourceTree = "<group>"; };
+		093938C0187E6AC700433FAA /* Array2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array2d.h; sourceTree = "<group>"; };
+		093938C1187E6AC700433FAA /* Position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Position.cpp; sourceTree = "<group>"; };
+		093938C2187E6AC700433FAA /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		093938C3187E6AC700433FAA /* SlidePuzzleController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlidePuzzleController.cpp; sourceTree = "<group>"; };
+		093938C4187E6AC700433FAA /* SlidePuzzleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePuzzleController.h; sourceTree = "<group>"; };
+		093938C5187E6AC700433FAA /* SlidePuzzleModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlidePuzzleModel.cpp; sourceTree = "<group>"; };
+		093938C6187E6AC700433FAA /* SlidePuzzleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePuzzleModel.h; sourceTree = "<group>"; };
+		093938C7187E6AC700433FAA /* SlidePuzzleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePuzzleModule.h; sourceTree = "<group>"; };
+		093938C8187E6AC700433FAA /* SlidePuzzleView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlidePuzzleView.cpp; sourceTree = "<group>"; };
+		093938C9187E6AC700433FAA /* SlidePuzzleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePuzzleView.h; sourceTree = "<group>"; };
+		093938CB187E6AC700433FAA /* TitleController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TitleController.cpp; sourceTree = "<group>"; };
+		093938CC187E6AC700433FAA /* TitleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleController.h; sourceTree = "<group>"; };
+		093938CD187E6AC700433FAA /* TitleModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TitleModel.cpp; sourceTree = "<group>"; };
+		093938CE187E6AC700433FAA /* TitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleModel.h; sourceTree = "<group>"; };
+		093938CF187E6AC700433FAA /* TitleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleModule.h; sourceTree = "<group>"; };
+		093938D0187E6AC700433FAA /* TitleView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TitleView.cpp; sourceTree = "<group>"; };
+		093938D1187E6AC700433FAA /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		093938D4187E6AC700433FAA /* TransEndController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransEndController.cpp; sourceTree = "<group>"; };
+		093938D5187E6AC700433FAA /* TransEndController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransEndController.h; sourceTree = "<group>"; };
+		093938D6187E6AC700433FAA /* TransEndModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransEndModel.cpp; sourceTree = "<group>"; };
+		093938D7187E6AC700433FAA /* TransEndModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransEndModel.h; sourceTree = "<group>"; };
+		093938D8187E6AC700433FAA /* TransEndModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransEndModule.h; sourceTree = "<group>"; };
+		093938D9187E6AC700433FAA /* TransEndView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransEndView.cpp; sourceTree = "<group>"; };
+		093938DA187E6AC700433FAA /* TransEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransEndView.h; sourceTree = "<group>"; };
+		093938DB187E6AC700433FAA /* TransTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestController.cpp; sourceTree = "<group>"; };
+		093938DC187E6AC700433FAA /* TransTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestController.h; sourceTree = "<group>"; };
+		093938DD187E6AC700433FAA /* TransTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestModel.cpp; sourceTree = "<group>"; };
+		093938DE187E6AC700433FAA /* TransTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestModel.h; sourceTree = "<group>"; };
+		093938DF187E6AC700433FAA /* TransTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestModule.h; sourceTree = "<group>"; };
+		093938E0187E6AC700433FAA /* TransTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestView.cpp; sourceTree = "<group>"; };
+		093938E1187E6AC700433FAA /* TransTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestView.h; sourceTree = "<group>"; };
+		093938E3187E6AC700433FAA /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		093938E4187E6AC700433FAA /* WidgetUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetUtils.cpp; sourceTree = "<group>"; };
+		093938E5187E6AC700433FAA /* WidgetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetUtils.h; sourceTree = "<group>"; };
+		09393904187E6AD900433FAA /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0939390B187E6BCE00433FAA /* EaseBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBuilder.h; sourceTree = "<group>"; };
+		0939390C187E6BCE00433FAA /* FallBy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FallBy.cpp; sourceTree = "<group>"; };
+		0939390D187E6BCE00433FAA /* FallBy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallBy.h; sourceTree = "<group>"; };
+		0939390E187E6BCE00433FAA /* PreferredSizeTo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreferredSizeTo.cpp; sourceTree = "<group>"; };
+		0939390F187E6BCE00433FAA /* PreferredSizeTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferredSizeTo.h; sourceTree = "<group>"; };
+		09393910187E6BCE00433FAA /* Rotate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rotate.cpp; sourceTree = "<group>"; };
+		09393911187E6BCE00433FAA /* Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rotate.h; sourceTree = "<group>"; };
+		09393912187E6BCE00433FAA /* ScaleToX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScaleToX.cpp; sourceTree = "<group>"; };
+		09393913187E6BCE00433FAA /* ScaleToX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleToX.h; sourceTree = "<group>"; };
+		09393914187E6BCE00433FAA /* ScaleToY.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScaleToY.cpp; sourceTree = "<group>"; };
+		09393915187E6BCE00433FAA /* ScaleToY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleToY.h; sourceTree = "<group>"; };
+		09393916187E6BCE00433FAA /* SlideIn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlideIn.cpp; sourceTree = "<group>"; };
+		09393917187E6BCE00433FAA /* SlideIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideIn.h; sourceTree = "<group>"; };
+		09393918187E6BCE00433FAA /* SlideOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlideOut.cpp; sourceTree = "<group>"; };
+		09393919187E6BCE00433FAA /* SlideOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideOut.h; sourceTree = "<group>"; };
+		0939391A187E6BCE00433FAA /* Vibrate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vibrate.cpp; sourceTree = "<group>"; };
+		0939391B187E6BCE00433FAA /* Vibrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vibrate.h; sourceTree = "<group>"; };
+		0939391C187E6BCE00433FAA /* Actions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Actions.hpp; sourceTree = "<group>"; };
+		0939391D187E6BCE00433FAA /* EventEmitter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EventEmitter.hpp; sourceTree = "<group>"; };
+		0939391F187E6BCE00433FAA /* FingerGesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerGesture.cpp; sourceTree = "<group>"; };
+		09393920187E6BCE00433FAA /* FingerGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerGesture.h; sourceTree = "<group>"; };
+		09393921187E6BCE00433FAA /* Macro.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Macro.hpp; sourceTree = "<group>"; };
+		09393923187E6BCE00433FAA /* SharedBuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SharedBuffer.hpp; sourceTree = "<group>"; };
+		09393924187E6BCE00433FAA /* Module.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Module.hpp; sourceTree = "<group>"; };
+		09393925187E6BCE00433FAA /* Modules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Modules.hpp; sourceTree = "<group>"; };
+		09393927187E6BCE00433FAA /* MvcBuilder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MvcBuilder.hpp; sourceTree = "<group>"; };
+		09393928187E6BCE00433FAA /* MvcModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MvcModule.cpp; sourceTree = "<group>"; };
+		09393929187E6BCE00433FAA /* MvcModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MvcModule.h; sourceTree = "<group>"; };
+		0939392A187E6BCE00433FAA /* MVC.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MVC.hpp; sourceTree = "<group>"; };
+		0939392C187E6BCE00433FAA /* DefaultHttpEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultHttpEncrypter.h; sourceTree = "<group>"; };
+		0939392D187E6BCE00433FAA /* HttpManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpManager.cpp; sourceTree = "<group>"; };
+		0939392E187E6BCE00433FAA /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		0939392F187E6BCE00433FAA /* IHttpEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHttpEncrypter.h; sourceTree = "<group>"; };
+		09393930187E6BCE00433FAA /* ObjectContainer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjectContainer.hpp; sourceTree = "<group>"; };
+		09393932187E6BCE00433FAA /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		09393933187E6BCE00433FAA /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		09393935187E6BCE00433FAA /* FileAlias.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileAlias.cpp; sourceTree = "<group>"; };
+		09393936187E6BCE00433FAA /* FileAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileAlias.h; sourceTree = "<group>"; };
+		09393937187E6BCE00433FAA /* ImageManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageManager.cpp; sourceTree = "<group>"; };
+		09393938187E6BCE00433FAA /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		09393939187E6BCE00433FAA /* ResouceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResouceLoader.h; sourceTree = "<group>"; };
+		0939393A187E6BCE00433FAA /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
+		0939393B187E6BCE00433FAA /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		0939393D187E6BCE00433FAA /* SceneChanger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneChanger.hpp; sourceTree = "<group>"; };
+		0939393F187E6BCE00433FAA /* Schedule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Schedule.cpp; sourceTree = "<group>"; };
+		09393940187E6BCE00433FAA /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		09393941187E6BCE00433FAA /* ScheduleManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScheduleManager.cpp; sourceTree = "<group>"; };
+		09393942187E6BCE00433FAA /* ScheduleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleManager.h; sourceTree = "<group>"; };
+		09393943187E6BCE00433FAA /* Singleton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Singleton.hpp; sourceTree = "<group>"; };
+		09393945187E6BCE00433FAA /* StringSplitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringSplitter.cpp; sourceTree = "<group>"; };
+		09393946187E6BCE00433FAA /* StringSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSplitter.h; sourceTree = "<group>"; };
+		09393948187E6BCE00433FAA /* ControlUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlUtils.cpp; sourceTree = "<group>"; };
+		09393949187E6BCE00433FAA /* ControlUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlUtils.h; sourceTree = "<group>"; };
+		0939394A187E6BCE00433FAA /* GeomUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeomUtils.cpp; sourceTree = "<group>"; };
+		0939394B187E6BCE00433FAA /* GeomUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeomUtils.h; sourceTree = "<group>"; };
+		0939394C187E6BCE00433FAA /* HttpUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpUtils.cpp; sourceTree = "<group>"; };
+		0939394D187E6BCE00433FAA /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtils.h; sourceTree = "<group>"; };
+		0939394E187E6BCE00433FAA /* LayoutUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayoutUtils.cpp; sourceTree = "<group>"; };
+		0939394F187E6BCE00433FAA /* LayoutUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutUtils.h; sourceTree = "<group>"; };
+		09393950187E6BCE00433FAA /* NodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeUtils.h; sourceTree = "<group>"; };
+		09393951187E6BCE00433FAA /* StringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtils.cpp; sourceTree = "<group>"; };
+		09393952187E6BCE00433FAA /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		09393953187E6BCE00433FAA /* TimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtils.h; sourceTree = "<group>"; };
+		09393956187E6BCE00433FAA /* BaseButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseButton.cpp; sourceTree = "<group>"; };
+		09393957187E6BCE00433FAA /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		09393958187E6BCE00433FAA /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		09393959187E6BCE00433FAA /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		0939395A187E6BCE00433FAA /* ButtonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonSprite.h; sourceTree = "<group>"; };
+		0939395B187E6BCE00433FAA /* MotionButtonSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MotionButtonSprite.cpp; sourceTree = "<group>"; };
+		0939395C187E6BCE00433FAA /* MotionButtonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionButtonSprite.h; sourceTree = "<group>"; };
+		0939395D187E6BCE00433FAA /* SimpleButtonSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleButtonSprite.cpp; sourceTree = "<group>"; };
+		0939395E187E6BCE00433FAA /* SimpleButtonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleButtonSprite.h; sourceTree = "<group>"; };
+		0939395F187E6BCE00433FAA /* ToggleButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ToggleButton.cpp; sourceTree = "<group>"; };
+		09393960187E6BCE00433FAA /* ToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleButton.h; sourceTree = "<group>"; };
+		09393962187E6BCF00433FAA /* CheckBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CheckBox.cpp; sourceTree = "<group>"; };
+		09393963187E6BCF00433FAA /* CheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
+		09393965187E6BCF00433FAA /* BaseListView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseListView.cpp; sourceTree = "<group>"; };
+		09393966187E6BCF00433FAA /* BaseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListView.h; sourceTree = "<group>"; };
+		09393967187E6BCF00433FAA /* SimpleListView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleListView.cpp; sourceTree = "<group>"; };
+		09393968187E6BCF00433FAA /* SimpleListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListView.h; sourceTree = "<group>"; };
+		0939396A187E6BCF00433FAA /* ScrollLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrollLayer.cpp; sourceTree = "<group>"; };
+		0939396B187E6BCF00433FAA /* ScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
+		0939396D187E6BCF00433FAA /* EnlargedSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnlargedSlider.cpp; sourceTree = "<group>"; };
+		0939396E187E6BCF00433FAA /* EnlargedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargedSlider.h; sourceTree = "<group>"; };
+		0939396F187E6BCF00433FAA /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		09393970187E6BCF00433FAA /* StencilSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StencilSlider.cpp; sourceTree = "<group>"; };
+		09393971187E6BCF00433FAA /* StencilSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StencilSlider.h; sourceTree = "<group>"; };
+		09393973187E6BCF00433FAA /* BaseTileView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTileView.cpp; sourceTree = "<group>"; };
+		09393974187E6BCF00433FAA /* BaseTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTileView.h; sourceTree = "<group>"; };
+		09393975187E6BCF00433FAA /* SimpleTileView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleTileView.cpp; sourceTree = "<group>"; };
+		09393976187E6BCF00433FAA /* SimpleTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTileView.h; sourceTree = "<group>"; };
+		099577431882E62D007FE435 /* SlidePuzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePuzzle.h; sourceTree = "<group>"; };
+		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
+		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
+		1AFAF8B416D35DE700DB1158 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* coconut_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coconut_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* coconut_sample iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coconut_sample iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
@@ -532,375 +580,459 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		0935870C1871645A00797223 /* Classes */ = {
+		09393891187E6AC600433FAA /* Definitions */ = {
 			isa = PBXGroup;
 			children = (
-				0935870D1871645A00797223 /* AppDelegate.cpp */,
-				0935870E1871645A00797223 /* AppDelegate.h */,
-				093587111871645A00797223 /* GameManager.cpp */,
-				093587121871645A00797223 /* GameManager.h */,
-				0935870F1871645A00797223 /* Definitions */,
-				093587EA1871653D00797223 /* Scenes */,
-				09CA02FE187167F7008B0C83 /* Utils */,
+				09393892187E6AC600433FAA /* Resolution.h */,
 			);
-			name = Classes;
-			path = ../Classes;
+			name = Definitions;
+			path = ../Classes/Definitions;
 			sourceTree = "<group>";
 		};
-		0935870F1871645A00797223 /* Definitions */ = {
+		09393895187E6AC600433FAA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				093587101871645A00797223 /* Resolution.h */,
+				093938CA187E6AC700433FAA /* Title */,
+				093938BE187E6AC700433FAA /* SlidePuzzle */,
+				093938D2187E6AC700433FAA /* TransTest */,
+				093938A6187E6AC700433FAA /* OverlayTest */,
+				09393896187E6AC600433FAA /* GestureTest */,
+				093938B6187E6AC700433FAA /* ScheduleTest */,
+				0939389E187E6AC600433FAA /* NetworkTest */,
 			);
-			path = Definitions;
+			name = Scenes;
+			path = ../Classes/Scenes;
 			sourceTree = "<group>";
 		};
-		093587131871645A00797223 /* Libraries */ = {
+		09393896187E6AC600433FAA /* GestureTest */ = {
 			isa = PBXGroup;
 			children = (
-				093587141871645A00797223 /* coconut */,
+				09393897187E6AC600433FAA /* GestureTestController.cpp */,
+				09393898187E6AC600433FAA /* GestureTestController.h */,
+				09393899187E6AC600433FAA /* GestureTestModel.cpp */,
+				0939389A187E6AC600433FAA /* GestureTestModel.h */,
+				0939389B187E6AC600433FAA /* GestureTestModule.h */,
+				0939389C187E6AC600433FAA /* GestureTestView.cpp */,
+				0939389D187E6AC600433FAA /* GestureTestView.h */,
+			);
+			path = GestureTest;
+			sourceTree = "<group>";
+		};
+		0939389E187E6AC600433FAA /* NetworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				09053B1118819D74002B8725 /* NetworkTestController.cpp */,
+				09053B1218819D74002B8725 /* NetworkTestController.h */,
+				09053B1318819D74002B8725 /* NetworkTestModel.cpp */,
+				09053B1418819D74002B8725 /* NetworkTestModel.h */,
+				09053B1518819D74002B8725 /* NetworkTestModule.h */,
+				09053B1618819D74002B8725 /* NetworkTestView.cpp */,
+				09053B1718819D74002B8725 /* NetworkTestView.h */,
+			);
+			path = NetworkTest;
+			sourceTree = "<group>";
+		};
+		093938A6187E6AC700433FAA /* OverlayTest */ = {
+			isa = PBXGroup;
+			children = (
+				093938A7187E6AC700433FAA /* Overlay */,
+				093938AF187E6AC700433FAA /* OverlayTestController.cpp */,
+				093938B0187E6AC700433FAA /* OverlayTestController.h */,
+				093938B1187E6AC700433FAA /* OverlayTestModel.cpp */,
+				093938B2187E6AC700433FAA /* OverlayTestModel.h */,
+				093938B3187E6AC700433FAA /* OverlayTestModule.h */,
+				093938B4187E6AC700433FAA /* OverlayTestView.cpp */,
+				093938B5187E6AC700433FAA /* OverlayTestView.h */,
+			);
+			path = OverlayTest;
+			sourceTree = "<group>";
+		};
+		093938A7187E6AC700433FAA /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				093938A8187E6AC700433FAA /* OverlayController.cpp */,
+				093938A9187E6AC700433FAA /* OverlayController.h */,
+				093938AA187E6AC700433FAA /* OverlayModel.cpp */,
+				093938AB187E6AC700433FAA /* OverlayModel.h */,
+				093938AC187E6AC700433FAA /* OverlayModule.h */,
+				093938AD187E6AC700433FAA /* OverlayView.cpp */,
+				093938AE187E6AC700433FAA /* OverlayView.h */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		093938B6187E6AC700433FAA /* ScheduleTest */ = {
+			isa = PBXGroup;
+			children = (
+				093938B7187E6AC700433FAA /* ScheduleTestController.cpp */,
+				093938B8187E6AC700433FAA /* ScheduleTestController.h */,
+				093938B9187E6AC700433FAA /* ScheduleTestModel.cpp */,
+				093938BA187E6AC700433FAA /* ScheduleTestModel.h */,
+				093938BB187E6AC700433FAA /* ScheduleTestModule.h */,
+				093938BC187E6AC700433FAA /* ScheduleTestView.cpp */,
+				093938BD187E6AC700433FAA /* ScheduleTestView.h */,
+			);
+			path = ScheduleTest;
+			sourceTree = "<group>";
+		};
+		093938BE187E6AC700433FAA /* SlidePuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				093938BF187E6AC700433FAA /* Array2d */,
+				099577431882E62D007FE435 /* SlidePuzzle.h */,
+				093938C3187E6AC700433FAA /* SlidePuzzleController.cpp */,
+				093938C4187E6AC700433FAA /* SlidePuzzleController.h */,
+				093938C5187E6AC700433FAA /* SlidePuzzleModel.cpp */,
+				093938C6187E6AC700433FAA /* SlidePuzzleModel.h */,
+				093938C7187E6AC700433FAA /* SlidePuzzleModule.h */,
+				093938C8187E6AC700433FAA /* SlidePuzzleView.cpp */,
+				093938C9187E6AC700433FAA /* SlidePuzzleView.h */,
+			);
+			path = SlidePuzzle;
+			sourceTree = "<group>";
+		};
+		093938BF187E6AC700433FAA /* Array2d */ = {
+			isa = PBXGroup;
+			children = (
+				093938C0187E6AC700433FAA /* Array2d.h */,
+				093938C1187E6AC700433FAA /* Position.cpp */,
+				093938C2187E6AC700433FAA /* Position.h */,
+			);
+			path = Array2d;
+			sourceTree = "<group>";
+		};
+		093938CA187E6AC700433FAA /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				093938CB187E6AC700433FAA /* TitleController.cpp */,
+				093938CC187E6AC700433FAA /* TitleController.h */,
+				093938CD187E6AC700433FAA /* TitleModel.cpp */,
+				093938CE187E6AC700433FAA /* TitleModel.h */,
+				093938CF187E6AC700433FAA /* TitleModule.h */,
+				093938D0187E6AC700433FAA /* TitleView.cpp */,
+				093938D1187E6AC700433FAA /* TitleView.h */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		093938D2187E6AC700433FAA /* TransTest */ = {
+			isa = PBXGroup;
+			children = (
+				093938D3187E6AC700433FAA /* TransEnd */,
+				093938DB187E6AC700433FAA /* TransTestController.cpp */,
+				093938DC187E6AC700433FAA /* TransTestController.h */,
+				093938DD187E6AC700433FAA /* TransTestModel.cpp */,
+				093938DE187E6AC700433FAA /* TransTestModel.h */,
+				093938DF187E6AC700433FAA /* TransTestModule.h */,
+				093938E0187E6AC700433FAA /* TransTestView.cpp */,
+				093938E1187E6AC700433FAA /* TransTestView.h */,
+			);
+			path = TransTest;
+			sourceTree = "<group>";
+		};
+		093938D3187E6AC700433FAA /* TransEnd */ = {
+			isa = PBXGroup;
+			children = (
+				093938D4187E6AC700433FAA /* TransEndController.cpp */,
+				093938D5187E6AC700433FAA /* TransEndController.h */,
+				093938D6187E6AC700433FAA /* TransEndModel.cpp */,
+				093938D7187E6AC700433FAA /* TransEndModel.h */,
+				093938D8187E6AC700433FAA /* TransEndModule.h */,
+				093938D9187E6AC700433FAA /* TransEndView.cpp */,
+				093938DA187E6AC700433FAA /* TransEndView.h */,
+			);
+			path = TransEnd;
+			sourceTree = "<group>";
+		};
+		093938E2187E6AC700433FAA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				093938E3187E6AC700433FAA /* ImageUtils.h */,
+				093938E4187E6AC700433FAA /* WidgetUtils.cpp */,
+				093938E5187E6AC700433FAA /* WidgetUtils.h */,
+			);
+			name = Utils;
+			path = ../Classes/Utils;
+			sourceTree = "<group>";
+		};
+		09393906187E6BCE00433FAA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				09393907187E6BCE00433FAA /* coconut */,
 			);
 			name = Libraries;
 			path = ../Libraries;
 			sourceTree = "<group>";
 		};
-		093587141871645A00797223 /* coconut */ = {
+		09393907187E6BCE00433FAA /* coconut */ = {
 			isa = PBXGroup;
 			children = (
-				09CA030418717359008B0C83 /* coconut */,
+				09393909187E6BCE00433FAA /* coconut */,
 			);
 			path = coconut;
 			sourceTree = "<group>";
 		};
-		093587EA1871653D00797223 /* Scenes */ = {
+		09393909187E6BCE00433FAA /* coconut */ = {
 			isa = PBXGroup;
 			children = (
-				093587EB1871654F00797223 /* Title */,
-				095638A01871FBA500B66B00 /* TransTest */,
-				09CA0394187179E3008B0C83 /* OverlayTest */,
-			);
-			name = Scenes;
-			sourceTree = "<group>";
-		};
-		093587EB1871654F00797223 /* Title */ = {
-			isa = PBXGroup;
-			children = (
-				093587EC1871657000797223 /* TitleController.cpp */,
-				093587ED1871657000797223 /* TitleController.h */,
-				093587EE1871657000797223 /* TitleModel.cpp */,
-				093587EF1871657000797223 /* TitleModel.h */,
-				093587F01871657000797223 /* TitleModule.h */,
-				093587F11871657000797223 /* TitleView.cpp */,
-				093587F21871657000797223 /* TitleView.h */,
-			);
-			name = Title;
-			sourceTree = "<group>";
-		};
-		095638A01871FBA500B66B00 /* TransTest */ = {
-			isa = PBXGroup;
-			children = (
-				095638A11871FBA500B66B00 /* TransTestController.cpp */,
-				095638A21871FBA500B66B00 /* TransTestController.h */,
-				095638A31871FBA500B66B00 /* TransTestModel.cpp */,
-				095638A41871FBA500B66B00 /* TransTestModel.h */,
-				095638A51871FBA500B66B00 /* TransTestModule.h */,
-				095638A61871FBA500B66B00 /* TransTestView.cpp */,
-				095638A71871FBA500B66B00 /* TransTestView.h */,
-				095638AB1871FE1500B66B00 /* TransEnd */,
-			);
-			name = TransTest;
-			path = Scenes/TransTest;
-			sourceTree = "<group>";
-		};
-		095638AB1871FE1500B66B00 /* TransEnd */ = {
-			isa = PBXGroup;
-			children = (
-				095638AC1871FEE000B66B00 /* TransEndController.cpp */,
-				095638AD1871FEE000B66B00 /* TransEndController.h */,
-				095638AE1871FEE000B66B00 /* TransEndModel.cpp */,
-				095638AF1871FEE000B66B00 /* TransEndModel.h */,
-				095638B01871FEE000B66B00 /* TransEndModule.h */,
-				095638B11871FEE000B66B00 /* TransEndView.cpp */,
-				095638B21871FEE000B66B00 /* TransEndView.h */,
-			);
-			name = TransEnd;
-			sourceTree = "<group>";
-		};
-		09CA02FE187167F7008B0C83 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				09CA02FF187167F7008B0C83 /* ImageUtils.h */,
-				09CA0301187167F7008B0C83 /* WidgetUtils.cpp */,
-				09CA0302187167F7008B0C83 /* WidgetUtils.h */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		09CA030418717359008B0C83 /* coconut */ = {
-			isa = PBXGroup;
-			children = (
-				09CA030518717359008B0C83 /* actions */,
-				09CA031718717359008B0C83 /* Actions.hpp */,
-				09CA031818717359008B0C83 /* EventEmitter.hpp */,
-				09CA031918717359008B0C83 /* finger_gestures */,
-				09CA031E18717359008B0C83 /* memory */,
-				09CA032018717359008B0C83 /* Module.hpp */,
-				09CA032118717359008B0C83 /* Modules.hpp */,
-				09CA032218717359008B0C83 /* mvc */,
-				09CA032618717359008B0C83 /* MVC.hpp */,
-				09CA032718717359008B0C83 /* ObjectContainer.hpp */,
-				09CA032818717359008B0C83 /* random */,
-				09CA032B18717359008B0C83 /* resouces */,
-				09CA033318717359008B0C83 /* scene */,
-				09CA033518717359008B0C83 /* schedule */,
-				09CA033A18717359008B0C83 /* Singleton.hpp */,
-				09CA033B18717359008B0C83 /* string */,
-				09CA033E18717359008B0C83 /* utils */,
-				09CA034C18717359008B0C83 /* widgets */,
+				0939390A187E6BCE00433FAA /* actions */,
+				0939391C187E6BCE00433FAA /* Actions.hpp */,
+				0939391D187E6BCE00433FAA /* EventEmitter.hpp */,
+				0939391E187E6BCE00433FAA /* finger_gestures */,
+				09393921187E6BCE00433FAA /* Macro.hpp */,
+				09393922187E6BCE00433FAA /* memory */,
+				09393924187E6BCE00433FAA /* Module.hpp */,
+				09393925187E6BCE00433FAA /* Modules.hpp */,
+				09393926187E6BCE00433FAA /* mvc */,
+				0939392A187E6BCE00433FAA /* MVC.hpp */,
+				0939392B187E6BCE00433FAA /* network */,
+				09393930187E6BCE00433FAA /* ObjectContainer.hpp */,
+				09393931187E6BCE00433FAA /* random */,
+				09393934187E6BCE00433FAA /* resouces */,
+				0939393C187E6BCE00433FAA /* scene */,
+				0939393E187E6BCE00433FAA /* schedule */,
+				09393943187E6BCE00433FAA /* Singleton.hpp */,
+				09393944187E6BCE00433FAA /* string */,
+				09393947187E6BCE00433FAA /* utils */,
+				09393954187E6BCE00433FAA /* widgets */,
 			);
 			path = coconut;
 			sourceTree = "<group>";
 		};
-		09CA030518717359008B0C83 /* actions */ = {
+		0939390A187E6BCE00433FAA /* actions */ = {
 			isa = PBXGroup;
 			children = (
-				09CA030618717359008B0C83 /* EaseBuilder.h */,
-				09CA030718717359008B0C83 /* FallBy.cpp */,
-				09CA030818717359008B0C83 /* FallBy.h */,
-				09CA030918717359008B0C83 /* PreferredSizeTo.cpp */,
-				09CA030A18717359008B0C83 /* PreferredSizeTo.h */,
-				09CA030B18717359008B0C83 /* Rotate.cpp */,
-				09CA030C18717359008B0C83 /* Rotate.h */,
-				09CA030D18717359008B0C83 /* ScaleToX.cpp */,
-				09CA030E18717359008B0C83 /* ScaleToX.h */,
-				09CA030F18717359008B0C83 /* ScaleToY.cpp */,
-				09CA031018717359008B0C83 /* ScaleToY.h */,
-				09CA031118717359008B0C83 /* SlideIn.cpp */,
-				09CA031218717359008B0C83 /* SlideIn.h */,
-				09CA031318717359008B0C83 /* SlideOut.cpp */,
-				09CA031418717359008B0C83 /* SlideOut.h */,
-				09CA031518717359008B0C83 /* Vibrate.cpp */,
-				09CA031618717359008B0C83 /* Vibrate.h */,
+				0939390B187E6BCE00433FAA /* EaseBuilder.h */,
+				0939390C187E6BCE00433FAA /* FallBy.cpp */,
+				0939390D187E6BCE00433FAA /* FallBy.h */,
+				0939390E187E6BCE00433FAA /* PreferredSizeTo.cpp */,
+				0939390F187E6BCE00433FAA /* PreferredSizeTo.h */,
+				09393910187E6BCE00433FAA /* Rotate.cpp */,
+				09393911187E6BCE00433FAA /* Rotate.h */,
+				09393912187E6BCE00433FAA /* ScaleToX.cpp */,
+				09393913187E6BCE00433FAA /* ScaleToX.h */,
+				09393914187E6BCE00433FAA /* ScaleToY.cpp */,
+				09393915187E6BCE00433FAA /* ScaleToY.h */,
+				09393916187E6BCE00433FAA /* SlideIn.cpp */,
+				09393917187E6BCE00433FAA /* SlideIn.h */,
+				09393918187E6BCE00433FAA /* SlideOut.cpp */,
+				09393919187E6BCE00433FAA /* SlideOut.h */,
+				0939391A187E6BCE00433FAA /* Vibrate.cpp */,
+				0939391B187E6BCE00433FAA /* Vibrate.h */,
 			);
 			path = actions;
 			sourceTree = "<group>";
 		};
-		09CA031918717359008B0C83 /* finger_gestures */ = {
+		0939391E187E6BCE00433FAA /* finger_gestures */ = {
 			isa = PBXGroup;
 			children = (
-				09CA031A18717359008B0C83 /* FingerGesture.cpp */,
-				09CA031B18717359008B0C83 /* FingerGesture.h */,
-				09CA031C18717359008B0C83 /* GestureLayer.cpp */,
-				09CA031D18717359008B0C83 /* GestureLayer.h */,
+				0939391F187E6BCE00433FAA /* FingerGesture.cpp */,
+				09393920187E6BCE00433FAA /* FingerGesture.h */,
 			);
 			path = finger_gestures;
 			sourceTree = "<group>";
 		};
-		09CA031E18717359008B0C83 /* memory */ = {
+		09393922187E6BCE00433FAA /* memory */ = {
 			isa = PBXGroup;
 			children = (
-				09CA031F18717359008B0C83 /* SharedBuffer.hpp */,
+				09393923187E6BCE00433FAA /* SharedBuffer.hpp */,
 			);
 			path = memory;
 			sourceTree = "<group>";
 		};
-		09CA032218717359008B0C83 /* mvc */ = {
+		09393926187E6BCE00433FAA /* mvc */ = {
 			isa = PBXGroup;
 			children = (
-				09CA032318717359008B0C83 /* MvcBuilder.hpp */,
-				09CA032418717359008B0C83 /* MvcModule.cpp */,
-				09CA032518717359008B0C83 /* MvcModule.h */,
+				09393927187E6BCE00433FAA /* MvcBuilder.hpp */,
+				09393928187E6BCE00433FAA /* MvcModule.cpp */,
+				09393929187E6BCE00433FAA /* MvcModule.h */,
 			);
 			path = mvc;
 			sourceTree = "<group>";
 		};
-		09CA032818717359008B0C83 /* random */ = {
+		0939392B187E6BCE00433FAA /* network */ = {
 			isa = PBXGroup;
 			children = (
-				09CA032918717359008B0C83 /* Random.cpp */,
-				09CA032A18717359008B0C83 /* Random.h */,
+				0939392C187E6BCE00433FAA /* DefaultHttpEncrypter.h */,
+				0939392D187E6BCE00433FAA /* HttpManager.cpp */,
+				0939392E187E6BCE00433FAA /* HttpManager.h */,
+				0939392F187E6BCE00433FAA /* IHttpEncrypter.h */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		09393931187E6BCE00433FAA /* random */ = {
+			isa = PBXGroup;
+			children = (
+				09393932187E6BCE00433FAA /* Random.cpp */,
+				09393933187E6BCE00433FAA /* Random.h */,
 			);
 			path = random;
 			sourceTree = "<group>";
 		};
-		09CA032B18717359008B0C83 /* resouces */ = {
+		09393934187E6BCE00433FAA /* resouces */ = {
 			isa = PBXGroup;
 			children = (
-				09CA032C18717359008B0C83 /* FileAlias.cpp */,
-				09CA032D18717359008B0C83 /* FileAlias.h */,
-				09CA032E18717359008B0C83 /* ImageManager.cpp */,
-				09CA032F18717359008B0C83 /* ImageManager.h */,
-				09CA033018717359008B0C83 /* ResouceLoader.h */,
-				09CA033118717359008B0C83 /* SoundManager.cpp */,
-				09CA033218717359008B0C83 /* SoundManager.h */,
+				09393935187E6BCE00433FAA /* FileAlias.cpp */,
+				09393936187E6BCE00433FAA /* FileAlias.h */,
+				09393937187E6BCE00433FAA /* ImageManager.cpp */,
+				09393938187E6BCE00433FAA /* ImageManager.h */,
+				09393939187E6BCE00433FAA /* ResouceLoader.h */,
+				0939393A187E6BCE00433FAA /* SoundManager.cpp */,
+				0939393B187E6BCE00433FAA /* SoundManager.h */,
 			);
 			path = resouces;
 			sourceTree = "<group>";
 		};
-		09CA033318717359008B0C83 /* scene */ = {
+		0939393C187E6BCE00433FAA /* scene */ = {
 			isa = PBXGroup;
 			children = (
-				09CA033418717359008B0C83 /* SceneChanger.hpp */,
+				0939393D187E6BCE00433FAA /* SceneChanger.hpp */,
 			);
 			path = scene;
 			sourceTree = "<group>";
 		};
-		09CA033518717359008B0C83 /* schedule */ = {
+		0939393E187E6BCE00433FAA /* schedule */ = {
 			isa = PBXGroup;
 			children = (
-				09CA033618717359008B0C83 /* Schedule.cpp */,
-				09CA033718717359008B0C83 /* Schedule.h */,
-				09CA033818717359008B0C83 /* ScheduleManager.cpp */,
-				09CA033918717359008B0C83 /* ScheduleManager.h */,
+				0939393F187E6BCE00433FAA /* Schedule.cpp */,
+				09393940187E6BCE00433FAA /* Schedule.h */,
+				09393941187E6BCE00433FAA /* ScheduleManager.cpp */,
+				09393942187E6BCE00433FAA /* ScheduleManager.h */,
 			);
 			path = schedule;
 			sourceTree = "<group>";
 		};
-		09CA033B18717359008B0C83 /* string */ = {
+		09393944187E6BCE00433FAA /* string */ = {
 			isa = PBXGroup;
 			children = (
-				09CA033C18717359008B0C83 /* StringSplitter.cpp */,
-				09CA033D18717359008B0C83 /* StringSplitter.h */,
+				09393945187E6BCE00433FAA /* StringSplitter.cpp */,
+				09393946187E6BCE00433FAA /* StringSplitter.h */,
 			);
 			path = string;
 			sourceTree = "<group>";
 		};
-		09CA033E18717359008B0C83 /* utils */ = {
+		09393947187E6BCE00433FAA /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				09CA033F18717359008B0C83 /* ArrayUtils.h */,
-				09CA034018717359008B0C83 /* ControlUtils.cpp */,
-				09CA034118717359008B0C83 /* ControlUtils.h */,
-				09CA034218717359008B0C83 /* GeomUtils.cpp */,
-				09CA034318717359008B0C83 /* GeomUtils.h */,
-				09CA034418717359008B0C83 /* HttpUtils.cpp */,
-				09CA034518717359008B0C83 /* HttpUtils.h */,
-				09CA034618717359008B0C83 /* LayoutUtils.cpp */,
-				09CA034718717359008B0C83 /* LayoutUtils.h */,
-				09CA034818717359008B0C83 /* NodeUtils.h */,
-				09CA034918717359008B0C83 /* StringUtils.cpp */,
-				09CA034A18717359008B0C83 /* StringUtils.h */,
-				09CA034B18717359008B0C83 /* TimeUtils.h */,
+				09393948187E6BCE00433FAA /* ControlUtils.cpp */,
+				09393949187E6BCE00433FAA /* ControlUtils.h */,
+				0939394A187E6BCE00433FAA /* GeomUtils.cpp */,
+				0939394B187E6BCE00433FAA /* GeomUtils.h */,
+				0939394C187E6BCE00433FAA /* HttpUtils.cpp */,
+				0939394D187E6BCE00433FAA /* HttpUtils.h */,
+				0939394E187E6BCE00433FAA /* LayoutUtils.cpp */,
+				0939394F187E6BCE00433FAA /* LayoutUtils.h */,
+				09393950187E6BCE00433FAA /* NodeUtils.h */,
+				09393951187E6BCE00433FAA /* StringUtils.cpp */,
+				09393952187E6BCE00433FAA /* StringUtils.h */,
+				09393953187E6BCE00433FAA /* TimeUtils.h */,
 			);
 			path = utils;
 			sourceTree = "<group>";
 		};
-		09CA034C18717359008B0C83 /* widgets */ = {
+		09393954187E6BCE00433FAA /* widgets */ = {
 			isa = PBXGroup;
 			children = (
-				09CA034D18717359008B0C83 /* button */,
-				09CA035918717359008B0C83 /* check_box */,
-				09CA035C18717359008B0C83 /* list_view */,
-				09CA036118717359008B0C83 /* scroll_layer */,
-				09CA036418717359008B0C83 /* slider */,
-				09CA036A18717359008B0C83 /* tile_view */,
+				09393955187E6BCE00433FAA /* button */,
+				09393961187E6BCF00433FAA /* check_box */,
+				09393964187E6BCF00433FAA /* list_view */,
+				09393969187E6BCF00433FAA /* scroll_layer */,
+				0939396C187E6BCF00433FAA /* slider */,
+				09393972187E6BCF00433FAA /* tile_view */,
 			);
 			path = widgets;
 			sourceTree = "<group>";
 		};
-		09CA034D18717359008B0C83 /* button */ = {
+		09393955187E6BCE00433FAA /* button */ = {
 			isa = PBXGroup;
 			children = (
-				09CA034E18717359008B0C83 /* BaseButton.cpp */,
-				09CA034F18717359008B0C83 /* BaseButton.h */,
-				09CA035018717359008B0C83 /* Button.cpp */,
-				09CA035118717359008B0C83 /* Button.h */,
-				09CA035218717359008B0C83 /* ButtonSprite.h */,
-				09CA035318717359008B0C83 /* MotionButtonSprite.cpp */,
-				09CA035418717359008B0C83 /* MotionButtonSprite.h */,
-				09CA035518717359008B0C83 /* SimpleButtonSprite.cpp */,
-				09CA035618717359008B0C83 /* SimpleButtonSprite.h */,
-				09CA035718717359008B0C83 /* ToggleButton.cpp */,
-				09CA035818717359008B0C83 /* ToggleButton.h */,
+				09393956187E6BCE00433FAA /* BaseButton.cpp */,
+				09393957187E6BCE00433FAA /* BaseButton.h */,
+				09393958187E6BCE00433FAA /* Button.cpp */,
+				09393959187E6BCE00433FAA /* Button.h */,
+				0939395A187E6BCE00433FAA /* ButtonSprite.h */,
+				0939395B187E6BCE00433FAA /* MotionButtonSprite.cpp */,
+				0939395C187E6BCE00433FAA /* MotionButtonSprite.h */,
+				0939395D187E6BCE00433FAA /* SimpleButtonSprite.cpp */,
+				0939395E187E6BCE00433FAA /* SimpleButtonSprite.h */,
+				0939395F187E6BCE00433FAA /* ToggleButton.cpp */,
+				09393960187E6BCE00433FAA /* ToggleButton.h */,
 			);
 			path = button;
 			sourceTree = "<group>";
 		};
-		09CA035918717359008B0C83 /* check_box */ = {
+		09393961187E6BCF00433FAA /* check_box */ = {
 			isa = PBXGroup;
 			children = (
-				09CA035A18717359008B0C83 /* CheckBox.cpp */,
-				09CA035B18717359008B0C83 /* CheckBox.h */,
+				09393962187E6BCF00433FAA /* CheckBox.cpp */,
+				09393963187E6BCF00433FAA /* CheckBox.h */,
 			);
 			path = check_box;
 			sourceTree = "<group>";
 		};
-		09CA035C18717359008B0C83 /* list_view */ = {
+		09393964187E6BCF00433FAA /* list_view */ = {
 			isa = PBXGroup;
 			children = (
-				09CA035D18717359008B0C83 /* BaseListView.cpp */,
-				09CA035E18717359008B0C83 /* BaseListView.h */,
-				09CA035F18717359008B0C83 /* SimpleListView.cpp */,
-				09CA036018717359008B0C83 /* SimpleListView.h */,
+				09393965187E6BCF00433FAA /* BaseListView.cpp */,
+				09393966187E6BCF00433FAA /* BaseListView.h */,
+				09393967187E6BCF00433FAA /* SimpleListView.cpp */,
+				09393968187E6BCF00433FAA /* SimpleListView.h */,
 			);
 			path = list_view;
 			sourceTree = "<group>";
 		};
-		09CA036118717359008B0C83 /* scroll_layer */ = {
+		09393969187E6BCF00433FAA /* scroll_layer */ = {
 			isa = PBXGroup;
 			children = (
-				09CA036218717359008B0C83 /* ScrollLayer.cpp */,
-				09CA036318717359008B0C83 /* ScrollLayer.h */,
+				0939396A187E6BCF00433FAA /* ScrollLayer.cpp */,
+				0939396B187E6BCF00433FAA /* ScrollLayer.h */,
 			);
 			path = scroll_layer;
 			sourceTree = "<group>";
 		};
-		09CA036418717359008B0C83 /* slider */ = {
+		0939396C187E6BCF00433FAA /* slider */ = {
 			isa = PBXGroup;
 			children = (
-				09CA036518717359008B0C83 /* EnlargedSlider.cpp */,
-				09CA036618717359008B0C83 /* EnlargedSlider.h */,
-				09CA036718717359008B0C83 /* Slider.h */,
-				09CA036818717359008B0C83 /* StencilSlider.cpp */,
-				09CA036918717359008B0C83 /* StencilSlider.h */,
+				0939396D187E6BCF00433FAA /* EnlargedSlider.cpp */,
+				0939396E187E6BCF00433FAA /* EnlargedSlider.h */,
+				0939396F187E6BCF00433FAA /* Slider.h */,
+				09393970187E6BCF00433FAA /* StencilSlider.cpp */,
+				09393971187E6BCF00433FAA /* StencilSlider.h */,
 			);
 			path = slider;
 			sourceTree = "<group>";
 		};
-		09CA036A18717359008B0C83 /* tile_view */ = {
+		09393972187E6BCF00433FAA /* tile_view */ = {
 			isa = PBXGroup;
 			children = (
-				09CA036B18717359008B0C83 /* BaseTileView.cpp */,
-				09CA036C18717359008B0C83 /* BaseTileView.h */,
-				09CA036D18717359008B0C83 /* SimpleTileView.cpp */,
-				09CA036E18717359008B0C83 /* SimpleTileView.h */,
+				09393973187E6BCF00433FAA /* BaseTileView.cpp */,
+				09393974187E6BCF00433FAA /* BaseTileView.h */,
+				09393975187E6BCF00433FAA /* SimpleTileView.cpp */,
+				09393976187E6BCF00433FAA /* SimpleTileView.h */,
 			);
 			path = tile_view;
 			sourceTree = "<group>";
 		};
-		09CA0394187179E3008B0C83 /* OverlayTest */ = {
+		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				09CA03AB18717DDF008B0C83 /* OverlayTestController.cpp */,
-				09CA03AC18717DDF008B0C83 /* OverlayTestController.h */,
-				09CA03AD18717DDF008B0C83 /* OverlayTestModel.cpp */,
-				09CA03AE18717DDF008B0C83 /* OverlayTestModel.h */,
-				09CA03AF18717DDF008B0C83 /* OverlayTestModule.h */,
-				09CA03B018717DDF008B0C83 /* OverlayTestView.cpp */,
-				09CA03B118717DDF008B0C83 /* OverlayTestView.h */,
-				09CA03C4187194FF008B0C83 /* Overlay */,
+				09393891187E6AC600433FAA /* Definitions */,
+				09393895187E6AC600433FAA /* Scenes */,
+				093938E2187E6AC700433FAA /* Utils */,
+				09393893187E6AC600433FAA /* GameManager.cpp */,
+				09393894187E6AC600433FAA /* GameManager.h */,
+				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
+				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 			);
-			name = OverlayTest;
-			sourceTree = "<group>";
-		};
-		09CA03C4187194FF008B0C83 /* Overlay */ = {
-			isa = PBXGroup;
-			children = (
-				09CA03C51871954B008B0C83 /* OverlayController.cpp */,
-				09CA03C61871954B008B0C83 /* OverlayController.h */,
-				09CA03C71871954B008B0C83 /* OverlayModel.cpp */,
-				09CA03C81871954B008B0C83 /* OverlayModel.h */,
-				09CA03C91871954B008B0C83 /* OverlayModule.h */,
-				09CA03CA1871954B008B0C83 /* OverlayView.cpp */,
-				09CA03CB1871954B008B0C83 /* OverlayView.h */,
-			);
-			name = Overlay;
+			name = Classes;
+			path = ../classes;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* coconut_sample.app */,
+				1D6058910D05DD3D006BFB54 /* coconut_sample iOS.app */,
 				5087E76F17EB910900C73F5D /* coconut_sample Mac.app */,
 			);
 			name = Products;
@@ -931,8 +1063,8 @@
 			isa = PBXGroup;
 			children = (
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
-				0935870C1871645A00797223 /* Classes */,
-				093587131871645A00797223 /* Libraries */,
+				15AA9C4015B7EC450033D6C2 /* Classes */,
+				09393906187E6BCE00433FAA /* Libraries */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				080E96DDFE201D6D7F000001 /* ios */,
 				503AE10617EB990700D1A890 /* mac */,
@@ -1012,7 +1144,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0956389D1871EAD900B66B00 /* images */,
+				09393904187E6AD900433FAA /* images */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -1021,9 +1153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* coconut_sample */ = {
+		1D6058900D05DD3D006BFB54 /* coconut_sample iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "coconut_sample" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "coconut_sample iOS" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -1038,9 +1170,9 @@
 				1AC6FB2B180E99E1004C840B /* PBXTargetDependency */,
 				1AC6FB2D180E99E1004C840B /* PBXTargetDependency */,
 			);
-			name = coconut_sample;
+			name = "coconut_sample iOS";
 			productName = iphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* coconut_sample.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* coconut_sample iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5087E73D17EB910900C73F5D /* coconut_sample Mac */ = {
@@ -1098,7 +1230,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* coconut_sample */,
+				1D6058900D05DD3D006BFB54 /* coconut_sample iOS */,
 				5087E73D17EB910900C73F5D /* coconut_sample Mac */,
 			);
 		};
@@ -1213,7 +1345,7 @@
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
-				0956389E1871EAD900B66B00 /* images in Resources */,
+				09393905187E6AD900433FAA /* images in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
@@ -1245,63 +1377,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CA037C18717359008B0C83 /* ImageManager.cpp in Sources */,
-				09CA03CE1871954B008B0C83 /* OverlayView.cpp in Sources */,
-				093587F41871657000797223 /* TitleModel.cpp in Sources */,
-				095638AA1871FBA500B66B00 /* TransTestView.cpp in Sources */,
-				09CA036F18717359008B0C83 /* FallBy.cpp in Sources */,
-				09CA039218717359008B0C83 /* SimpleTileView.cpp in Sources */,
-				093587B41871645A00797223 /* AppDelegate.cpp in Sources */,
-				093587B51871645A00797223 /* GameManager.cpp in Sources */,
+				093939A1187E6BCF00433FAA /* HttpUtils.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
-				095638A91871FBA500B66B00 /* TransTestModel.cpp in Sources */,
-				09CA037318717359008B0C83 /* ScaleToY.cpp in Sources */,
-				09CA037A18717359008B0C83 /* Random.cpp in Sources */,
-				09CA038518717359008B0C83 /* StringUtils.cpp in Sources */,
-				095638B31871FEE000B66B00 /* TransEndController.cpp in Sources */,
-				09CA037518717359008B0C83 /* SlideOut.cpp in Sources */,
-				093587F51871657000797223 /* TitleView.cpp in Sources */,
-				09CA037118717359008B0C83 /* Rotate.cpp in Sources */,
-				09CA038F18717359008B0C83 /* EnlargedSlider.cpp in Sources */,
-				09CA037B18717359008B0C83 /* FileAlias.cpp in Sources */,
-				09CA03B318717DDF008B0C83 /* OverlayTestModel.cpp in Sources */,
-				09CA038E18717359008B0C83 /* ScrollLayer.cpp in Sources */,
-				09CA038018717359008B0C83 /* StringSplitter.cpp in Sources */,
-				09CA03CD1871954B008B0C83 /* OverlayModel.cpp in Sources */,
-				09CA038B18717359008B0C83 /* CheckBox.cpp in Sources */,
-				09CA037E18717359008B0C83 /* Schedule.cpp in Sources */,
-				09CA03B418717DDF008B0C83 /* OverlayTestView.cpp in Sources */,
-				095638B41871FEE000B66B00 /* TransEndModel.cpp in Sources */,
-				093587F31871657000797223 /* TitleController.cpp in Sources */,
-				09CA038318717359008B0C83 /* HttpUtils.cpp in Sources */,
-				09CA038C18717359008B0C83 /* BaseListView.cpp in Sources */,
-				09CA039118717359008B0C83 /* BaseTileView.cpp in Sources */,
-				09CA037D18717359008B0C83 /* SoundManager.cpp in Sources */,
+				093938E6187E6AC700433FAA /* GameManager.cpp in Sources */,
+				09393998187E6BCF00433FAA /* Random.cpp in Sources */,
+				093939AC187E6BCF00433FAA /* ScrollLayer.cpp in Sources */,
+				093938F9187E6AC700433FAA /* SlidePuzzleView.cpp in Sources */,
+				093939A9187E6BCF00433FAA /* CheckBox.cpp in Sources */,
+				09393993187E6BCF00433FAA /* SlideOut.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
-				09CA038718717359008B0C83 /* Button.cpp in Sources */,
-				09CA037218717359008B0C83 /* ScaleToX.cpp in Sources */,
-				09CA037618717359008B0C83 /* Vibrate.cpp in Sources */,
-				095638A81871FBA500B66B00 /* TransTestController.cpp in Sources */,
-				095638B51871FEE000B66B00 /* TransEndView.cpp in Sources */,
-				09CA038A18717359008B0C83 /* ToggleButton.cpp in Sources */,
-				09CA037818717359008B0C83 /* GestureLayer.cpp in Sources */,
-				09CA037018717359008B0C83 /* PreferredSizeTo.cpp in Sources */,
-				09CA037F18717359008B0C83 /* ScheduleManager.cpp in Sources */,
-				09CA037418717359008B0C83 /* SlideIn.cpp in Sources */,
-				09CA038818717359008B0C83 /* MotionButtonSprite.cpp in Sources */,
-				09CA038118717359008B0C83 /* ControlUtils.cpp in Sources */,
-				09CA038218717359008B0C83 /* GeomUtils.cpp in Sources */,
-				09CA03B218717DDF008B0C83 /* OverlayTestController.cpp in Sources */,
-				09CA0303187167F7008B0C83 /* WidgetUtils.cpp in Sources */,
-				09CA037718717359008B0C83 /* FingerGesture.cpp in Sources */,
-				09CA03CC1871954B008B0C83 /* OverlayController.cpp in Sources */,
-				09CA038618717359008B0C83 /* BaseButton.cpp in Sources */,
-				09CA038918717359008B0C83 /* SimpleButtonSprite.cpp in Sources */,
-				09CA038D18717359008B0C83 /* SimpleListView.cpp in Sources */,
-				09CA037918717359008B0C83 /* MvcModule.cpp in Sources */,
-				09CA039018717359008B0C83 /* StencilSlider.cpp in Sources */,
-				09CA038418717359008B0C83 /* LayoutUtils.cpp in Sources */,
+				09393990187E6BCF00433FAA /* ScaleToX.cpp in Sources */,
+				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
+				093938F2187E6AC700433FAA /* OverlayTestView.cpp in Sources */,
+				09053B1818819D74002B8725 /* NetworkTestController.cpp in Sources */,
+				093938F6187E6AC700433FAA /* Position.cpp in Sources */,
+				09393900187E6AC700433FAA /* TransTestController.cpp in Sources */,
+				09393996187E6BCF00433FAA /* MvcModule.cpp in Sources */,
+				0939399C187E6BCF00433FAA /* Schedule.cpp in Sources */,
+				0939399E187E6BCF00433FAA /* StringSplitter.cpp in Sources */,
+				0939399F187E6BCF00433FAA /* ControlUtils.cpp in Sources */,
+				093938F5187E6AC700433FAA /* ScheduleTestView.cpp in Sources */,
+				09393991187E6BCF00433FAA /* ScaleToY.cpp in Sources */,
+				093938E8187E6AC700433FAA /* GestureTestModel.cpp in Sources */,
+				0939399A187E6BCF00433FAA /* ImageManager.cpp in Sources */,
+				09393992187E6BCF00433FAA /* SlideIn.cpp in Sources */,
+				09053B1918819D74002B8725 /* NetworkTestModel.cpp in Sources */,
+				093938F3187E6AC700433FAA /* ScheduleTestController.cpp in Sources */,
+				0939399B187E6BCF00433FAA /* SoundManager.cpp in Sources */,
+				093938FD187E6AC700433FAA /* TransEndController.cpp in Sources */,
+				093939A5187E6BCF00433FAA /* Button.cpp in Sources */,
+				093939AE187E6BCF00433FAA /* StencilSlider.cpp in Sources */,
+				093938FC187E6AC700433FAA /* TitleView.cpp in Sources */,
+				09053B1A18819D74002B8725 /* NetworkTestView.cpp in Sources */,
+				093939A8187E6BCF00433FAA /* ToggleButton.cpp in Sources */,
+				093938FB187E6AC700433FAA /* TitleModel.cpp in Sources */,
+				093938F7187E6AC700433FAA /* SlidePuzzleController.cpp in Sources */,
+				093938EF187E6AC700433FAA /* OverlayView.cpp in Sources */,
+				093939A7187E6BCF00433FAA /* SimpleButtonSprite.cpp in Sources */,
+				093938F1187E6AC700433FAA /* OverlayTestModel.cpp in Sources */,
+				093939A2187E6BCF00433FAA /* LayoutUtils.cpp in Sources */,
+				093939B0187E6BCF00433FAA /* SimpleTileView.cpp in Sources */,
+				093939AF187E6BCF00433FAA /* BaseTileView.cpp in Sources */,
+				09393903187E6AC700433FAA /* WidgetUtils.cpp in Sources */,
+				093938FA187E6AC700433FAA /* TitleController.cpp in Sources */,
+				0939398E187E6BCF00433FAA /* PreferredSizeTo.cpp in Sources */,
+				093939A6187E6BCF00433FAA /* MotionButtonSprite.cpp in Sources */,
+				093939AD187E6BCF00433FAA /* EnlargedSlider.cpp in Sources */,
+				0939398D187E6BCF00433FAA /* FallBy.cpp in Sources */,
+				093939A3187E6BCF00433FAA /* StringUtils.cpp in Sources */,
+				093938FF187E6AC700433FAA /* TransEndView.cpp in Sources */,
+				093938F8187E6AC700433FAA /* SlidePuzzleModel.cpp in Sources */,
+				09393999187E6BCF00433FAA /* FileAlias.cpp in Sources */,
+				093939A4187E6BCF00433FAA /* BaseButton.cpp in Sources */,
+				09393994187E6BCF00433FAA /* Vibrate.cpp in Sources */,
+				093938F0187E6AC700433FAA /* OverlayTestController.cpp in Sources */,
+				09393902187E6AC700433FAA /* TransTestView.cpp in Sources */,
+				0939399D187E6BCF00433FAA /* ScheduleManager.cpp in Sources */,
+				093939AA187E6BCF00433FAA /* BaseListView.cpp in Sources */,
+				093938ED187E6AC700433FAA /* OverlayController.cpp in Sources */,
+				093938FE187E6AC700433FAA /* TransEndModel.cpp in Sources */,
+				093938EE187E6AC700433FAA /* OverlayModel.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				09393901187E6AC700433FAA /* TransTestModel.cpp in Sources */,
+				09393997187E6BCF00433FAA /* HttpManager.cpp in Sources */,
+				09393995187E6BCF00433FAA /* FingerGesture.cpp in Sources */,
+				093939A0187E6BCF00433FAA /* GeomUtils.cpp in Sources */,
+				093938E9187E6AC700433FAA /* GestureTestView.cpp in Sources */,
+				093939AB187E6BCF00433FAA /* SimpleListView.cpp in Sources */,
+				093938F4187E6AC700433FAA /* ScheduleTestModel.cpp in Sources */,
+				093938E7187E6AC700433FAA /* GestureTestController.cpp in Sources */,
+				0939398F187E6BCF00433FAA /* Rotate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1309,6 +1454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1388,8 +1534,8 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../cocos/2d/platform/ios",
-					"$(SRCROOT)/../../../cocos/2d/platform/ios/Simulation",
+					"$(SRCROOT)/../cocos2d/cocos/2d/platform/ios",
+					"$(SRCROOT)/../cocos2d/cocos/2d/platform/ios/Simulation",
 					"$(SRCROOT)/../Libraries/coconut",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
@@ -1418,8 +1564,8 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../cocos/2d/platform/ios",
-					"$(SRCROOT)/../../../cocos/2d/platform/ios/Simulation",
+					"$(SRCROOT)/../cocos2d/cocos/2d/platform/ios",
+					"$(SRCROOT)/../cocos2d/cocos/2d/platform/ios/Simulation",
 					"$(SRCROOT)/../Libraries/coconut",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
@@ -1451,8 +1597,8 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../cocos/2d/platform/mac",
-					"$(SRCROOT)/../../../external/glfw3/include/mac",
+					"$(SRCROOT)/../cocos2d/cocos/2d/platform/mac",
+					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
@@ -1478,8 +1624,8 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../cocos/2d/platform/mac",
-					"$(SRCROOT)/../../../external/glfw3/include/mac",
+					"$(SRCROOT)/../cocos2d/cocos/2d/platform/mac",
+					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
@@ -1497,19 +1643,19 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../..",
-					"$(SRCROOT)/../../../cocos",
-					"$(SRCROOT)/../../../cocos/base",
-					"$(SRCROOT)/../../../cocos/physics",
-					"$(SRCROOT)/../../../cocos/math/kazmath/include",
-					"$(SRCROOT)/../../../cocos/2d",
-					"$(SRCROOT)/../../../cocos/gui",
-					"$(SRCROOT)/../../../cocos/network",
-					"$(SRCROOT)/../../../cocos/audio/include",
-					"$(SRCROOT)/../../../cocos/editor-support",
-					"$(SRCROOT)/../../../extensions",
-					"$(SRCROOT)/../../../external",
-					"$(SRCROOT)/../../../external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/../cocos2d",
+					"$(SRCROOT)/../cocos2d/cocos",
+					"$(SRCROOT)/../cocos2d/cocos/base",
+					"$(SRCROOT)/../cocos2d/cocos/physics",
+					"$(SRCROOT)/../cocos2d/cocos/math/kazmath/include",
+					"$(SRCROOT)/../cocos2d/cocos/2d",
+					"$(SRCROOT)/../cocos2d/cocos/gui",
+					"$(SRCROOT)/../cocos2d/cocos/network",
+					"$(SRCROOT)/../cocos2d/cocos/audio/include",
+					"$(SRCROOT)/../cocos2d/cocos/editor-support",
+					"$(SRCROOT)/../cocos2d/extensions",
+					"$(SRCROOT)/../cocos2d/external",
+					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1525,19 +1671,19 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../..",
-					"$(SRCROOT)/../../../cocos",
-					"$(SRCROOT)/../../../cocos/base",
-					"$(SRCROOT)/../../../cocos/physics",
-					"$(SRCROOT)/../../../cocos/math/kazmath/include",
-					"$(SRCROOT)/../../../cocos/2d",
-					"$(SRCROOT)/../../../cocos/gui",
-					"$(SRCROOT)/../../../cocos/network",
-					"$(SRCROOT)/../../../cocos/audio/include",
-					"$(SRCROOT)/../../../cocos/editor-support",
-					"$(SRCROOT)/../../../extensions",
-					"$(SRCROOT)/../../../external",
-					"$(SRCROOT)/../../../external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/../cocos2d",
+					"$(SRCROOT)/../cocos2d/cocos",
+					"$(SRCROOT)/../cocos2d/cocos/base",
+					"$(SRCROOT)/../cocos2d/cocos/physics",
+					"$(SRCROOT)/../cocos2d/cocos/math/kazmath/include",
+					"$(SRCROOT)/../cocos2d/cocos/2d",
+					"$(SRCROOT)/../cocos2d/cocos/gui",
+					"$(SRCROOT)/../cocos2d/cocos/network",
+					"$(SRCROOT)/../cocos2d/cocos/audio/include",
+					"$(SRCROOT)/../cocos2d/cocos/editor-support",
+					"$(SRCROOT)/../cocos2d/extensions",
+					"$(SRCROOT)/../cocos2d/external",
+					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
 				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1549,7 +1695,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "coconut_sample" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "coconut_sample iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
