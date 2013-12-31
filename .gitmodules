@@ -1,0 +1,3 @@
+[submodule "Libraries/coconut"]
+	path = Libraries/coconut
+	url = https://github.com/sunfish-shogi/coconut.git

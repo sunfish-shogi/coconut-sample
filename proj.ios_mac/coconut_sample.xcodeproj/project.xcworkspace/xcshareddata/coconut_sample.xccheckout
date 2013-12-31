@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>693147FE-B045-488A-852E-EDA249446EBC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>coconut_sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</key>
+		<string>http://ghe.amb.ca.local/kubo-ryosuke/mahjong-puzzle-battle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>coconut_sample/proj.ios_mac/coconut_sample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://ghe.amb.ca.local/kubo-ryosuke/mahjong-puzzle-battle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFC1285E-76E9-4925-BD1D-191D84EFB8B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
