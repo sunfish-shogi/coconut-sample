@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090A7D5218742B0C00FEF67D /* ScheduleTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D4B18742B0C00FEF67D /* ScheduleTestController.cpp */; };
+		090A7D5318742B0C00FEF67D /* ScheduleTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D4D18742B0C00FEF67D /* ScheduleTestModel.cpp */; };
+		090A7D5418742B0C00FEF67D /* ScheduleTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D5018742B0C00FEF67D /* ScheduleTestView.cpp */; };
+		090A7D5618742F4400FEF67D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 090A7D5518742F4400FEF67D /* images */; };
+		090A7D5F18743BFF00FEF67D /* SlidePuzzleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D5818743BFF00FEF67D /* SlidePuzzleController.cpp */; };
+		090A7D6018743BFF00FEF67D /* SlidePuzzleModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D5A18743BFF00FEF67D /* SlidePuzzleModel.cpp */; };
+		090A7D6118743BFF00FEF67D /* SlidePuzzleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D5D18743BFF00FEF67D /* SlidePuzzleView.cpp */; };
+		090A7D6618743E1300FEF67D /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D6418743E1300FEF67D /* Position.cpp */; };
 		093587B41871645A00797223 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0935870D1871645A00797223 /* AppDelegate.cpp */; };
 		093587B51871645A00797223 /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587111871645A00797223 /* GameManager.cpp */; };
 		093587F31871657000797223 /* TitleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587EC1871657000797223 /* TitleController.cpp */; };
 		093587F41871657000797223 /* TitleModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587EE1871657000797223 /* TitleModel.cpp */; };
 		093587F51871657000797223 /* TitleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093587F11871657000797223 /* TitleView.cpp */; };
-		0956389E1871EAD900B66B00 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0956389D1871EAD900B66B00 /* images */; };
 		095638A81871FBA500B66B00 /* TransTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638A11871FBA500B66B00 /* TransTestController.cpp */; };
 		095638A91871FBA500B66B00 /* TransTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638A31871FBA500B66B00 /* TransTestModel.cpp */; };
 		095638AA1871FBA500B66B00 /* TransTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 095638A61871FBA500B66B00 /* TransTestView.cpp */; };
@@ -290,6 +297,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090A7D4B18742B0C00FEF67D /* ScheduleTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScheduleTestController.cpp; path = Scenes/ScheduleTest/ScheduleTestController.cpp; sourceTree = "<group>"; };
+		090A7D4C18742B0C00FEF67D /* ScheduleTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleTestController.h; path = Scenes/ScheduleTest/ScheduleTestController.h; sourceTree = "<group>"; };
+		090A7D4D18742B0C00FEF67D /* ScheduleTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScheduleTestModel.cpp; path = Scenes/ScheduleTest/ScheduleTestModel.cpp; sourceTree = "<group>"; };
+		090A7D4E18742B0C00FEF67D /* ScheduleTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleTestModel.h; path = Scenes/ScheduleTest/ScheduleTestModel.h; sourceTree = "<group>"; };
+		090A7D4F18742B0C00FEF67D /* ScheduleTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleTestModule.h; path = Scenes/ScheduleTest/ScheduleTestModule.h; sourceTree = "<group>"; };
+		090A7D5018742B0C00FEF67D /* ScheduleTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScheduleTestView.cpp; path = Scenes/ScheduleTest/ScheduleTestView.cpp; sourceTree = "<group>"; };
+		090A7D5118742B0C00FEF67D /* ScheduleTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleTestView.h; path = Scenes/ScheduleTest/ScheduleTestView.h; sourceTree = "<group>"; };
+		090A7D5518742F4400FEF67D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		090A7D5818743BFF00FEF67D /* SlidePuzzleController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SlidePuzzleController.cpp; path = Scenes/SlidePuzzle/SlidePuzzleController.cpp; sourceTree = "<group>"; };
+		090A7D5918743BFF00FEF67D /* SlidePuzzleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidePuzzleController.h; path = Scenes/SlidePuzzle/SlidePuzzleController.h; sourceTree = "<group>"; };
+		090A7D5A18743BFF00FEF67D /* SlidePuzzleModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SlidePuzzleModel.cpp; path = Scenes/SlidePuzzle/SlidePuzzleModel.cpp; sourceTree = "<group>"; };
+		090A7D5B18743BFF00FEF67D /* SlidePuzzleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidePuzzleModel.h; path = Scenes/SlidePuzzle/SlidePuzzleModel.h; sourceTree = "<group>"; };
+		090A7D5C18743BFF00FEF67D /* SlidePuzzleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidePuzzleModule.h; path = Scenes/SlidePuzzle/SlidePuzzleModule.h; sourceTree = "<group>"; };
+		090A7D5D18743BFF00FEF67D /* SlidePuzzleView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SlidePuzzleView.cpp; path = Scenes/SlidePuzzle/SlidePuzzleView.cpp; sourceTree = "<group>"; };
+		090A7D5E18743BFF00FEF67D /* SlidePuzzleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidePuzzleView.h; path = Scenes/SlidePuzzle/SlidePuzzleView.h; sourceTree = "<group>"; };
+		090A7D6318743E1300FEF67D /* Array2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array2d.h; sourceTree = "<group>"; };
+		090A7D6418743E1300FEF67D /* Position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Position.cpp; sourceTree = "<group>"; };
+		090A7D6518743E1300FEF67D /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
 		0935870D1871645A00797223 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		0935870E1871645A00797223 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		093587101871645A00797223 /* Resolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resolution.h; sourceTree = "<group>"; };
@@ -302,7 +327,6 @@
 		093587F01871657000797223 /* TitleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleModule.h; path = Scenes/Title/TitleModule.h; sourceTree = "<group>"; };
 		093587F11871657000797223 /* TitleView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleView.cpp; path = Scenes/Title/TitleView.cpp; sourceTree = "<group>"; };
 		093587F21871657000797223 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleView.h; path = Scenes/Title/TitleView.h; sourceTree = "<group>"; };
-		0956389D1871EAD900B66B00 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		095638A11871FBA500B66B00 /* TransTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestController.cpp; sourceTree = "<group>"; };
 		095638A21871FBA500B66B00 /* TransTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransTestController.h; sourceTree = "<group>"; };
 		095638A31871FBA500B66B00 /* TransTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransTestModel.cpp; sourceTree = "<group>"; };
@@ -539,6 +563,46 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		090A7D44187427A300FEF67D /* ScheduleTest */ = {
+			isa = PBXGroup;
+			children = (
+				090A7D4B18742B0C00FEF67D /* ScheduleTestController.cpp */,
+				090A7D4C18742B0C00FEF67D /* ScheduleTestController.h */,
+				090A7D4D18742B0C00FEF67D /* ScheduleTestModel.cpp */,
+				090A7D4E18742B0C00FEF67D /* ScheduleTestModel.h */,
+				090A7D4F18742B0C00FEF67D /* ScheduleTestModule.h */,
+				090A7D5018742B0C00FEF67D /* ScheduleTestView.cpp */,
+				090A7D5118742B0C00FEF67D /* ScheduleTestView.h */,
+			);
+			name = ScheduleTest;
+			sourceTree = "<group>";
+		};
+		090A7D5718743B2300FEF67D /* SlidePuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				090A7D6218743E1300FEF67D /* Array2d */,
+				090A7D5818743BFF00FEF67D /* SlidePuzzleController.cpp */,
+				090A7D5918743BFF00FEF67D /* SlidePuzzleController.h */,
+				090A7D5A18743BFF00FEF67D /* SlidePuzzleModel.cpp */,
+				090A7D5B18743BFF00FEF67D /* SlidePuzzleModel.h */,
+				090A7D5C18743BFF00FEF67D /* SlidePuzzleModule.h */,
+				090A7D5D18743BFF00FEF67D /* SlidePuzzleView.cpp */,
+				090A7D5E18743BFF00FEF67D /* SlidePuzzleView.h */,
+			);
+			name = SlidePuzzle;
+			sourceTree = "<group>";
+		};
+		090A7D6218743E1300FEF67D /* Array2d */ = {
+			isa = PBXGroup;
+			children = (
+				090A7D6318743E1300FEF67D /* Array2d.h */,
+				090A7D6418743E1300FEF67D /* Position.cpp */,
+				090A7D6518743E1300FEF67D /* Position.h */,
+			);
+			name = Array2d;
+			path = Scenes/SlidePuzzle/Array2d;
+			sourceTree = "<group>";
+		};
 		0935870C1871645A00797223 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,9 +647,11 @@
 			isa = PBXGroup;
 			children = (
 				093587EB1871654F00797223 /* Title */,
+				090A7D5718743B2300FEF67D /* SlidePuzzle */,
 				095638A01871FBA500B66B00 /* TransTest */,
 				09CA0394187179E3008B0C83 /* OverlayTest */,
 				09827AC3187301770043C1C3 /* GestureTest */,
+				090A7D44187427A300FEF67D /* ScheduleTest */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -1032,7 +1098,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0956389D1871EAD900B66B00 /* images */,
+				090A7D5518742F4400FEF67D /* images */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -1233,7 +1299,7 @@
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
-				0956389E1871EAD900B66B00 /* images in Resources */,
+				090A7D5618742F4400FEF67D /* images in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
@@ -1266,7 +1332,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09CA037C18717359008B0C83 /* ImageManager.cpp in Sources */,
+				090A7D5418742B0C00FEF67D /* ScheduleTestView.cpp in Sources */,
 				09CA03CE1871954B008B0C83 /* OverlayView.cpp in Sources */,
+				090A7D5318742B0C00FEF67D /* ScheduleTestModel.cpp in Sources */,
 				093587F41871657000797223 /* TitleModel.cpp in Sources */,
 				095638AA1871FBA500B66B00 /* TransTestView.cpp in Sources */,
 				09CA036F18717359008B0C83 /* FallBy.cpp in Sources */,
@@ -1277,10 +1345,13 @@
 				095638A91871FBA500B66B00 /* TransTestModel.cpp in Sources */,
 				09CA037318717359008B0C83 /* ScaleToY.cpp in Sources */,
 				09CA037A18717359008B0C83 /* Random.cpp in Sources */,
+				090A7D5218742B0C00FEF67D /* ScheduleTestController.cpp in Sources */,
 				09CA038518717359008B0C83 /* StringUtils.cpp in Sources */,
 				095638B31871FEE000B66B00 /* TransEndController.cpp in Sources */,
 				09CA037518717359008B0C83 /* SlideOut.cpp in Sources */,
+				090A7D5F18743BFF00FEF67D /* SlidePuzzleController.cpp in Sources */,
 				093587F51871657000797223 /* TitleView.cpp in Sources */,
+				090A7D6618743E1300FEF67D /* Position.cpp in Sources */,
 				09CA037118717359008B0C83 /* Rotate.cpp in Sources */,
 				09CA038F18717359008B0C83 /* EnlargedSlider.cpp in Sources */,
 				09CA037B18717359008B0C83 /* FileAlias.cpp in Sources */,
@@ -1309,7 +1380,9 @@
 				09827ADB187302AF0043C1C3 /* GestureTestController.cpp in Sources */,
 				09CA037018717359008B0C83 /* PreferredSizeTo.cpp in Sources */,
 				09CA037F18717359008B0C83 /* ScheduleManager.cpp in Sources */,
+				090A7D6118743BFF00FEF67D /* SlidePuzzleView.cpp in Sources */,
 				09CA037418717359008B0C83 /* SlideIn.cpp in Sources */,
+				090A7D6018743BFF00FEF67D /* SlidePuzzleModel.cpp in Sources */,
 				09CA038818717359008B0C83 /* MotionButtonSprite.cpp in Sources */,
 				09CA038118717359008B0C83 /* ControlUtils.cpp in Sources */,
 				09CA038218717359008B0C83 /* GeomUtils.cpp in Sources */,

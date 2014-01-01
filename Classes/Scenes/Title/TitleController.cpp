@@ -26,6 +26,9 @@ namespace coconut_sample {
 		_view->onSelectClose([=]() {
 			GameManager::getInstance()->emitClose();
 		});
+		_view->onSelectSlidePuzzle([=]() {
+			GameManager::getInstance()->emitSelectSlidePuzzle();
+		});
 		_view->onSelectSceneTransTest([=]() {
 			GameManager::getInstance()->emitSelectTransTest();
 		});
@@ -34,6 +37,9 @@ namespace coconut_sample {
 		});
 		_view->onSelectGestureTest([=]() {
 			GameManager::getInstance()->emitSelectGestureTest();
+		});
+		_view->onSelectScheduleTest([=]() {
+			GameManager::getInstance()->emitSelectScheduleTest();
 		});
 	}
 

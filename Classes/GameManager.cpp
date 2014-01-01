@@ -8,12 +8,14 @@
 
 #include "GameManager.h"
 #include "Definitions/Resolution.h"
+#include "Scenes/SlidePuzzle/SlidePuzzleModule.h"
 #include "Scenes/Title/TitleModule.h"
 #include "Scenes/TransTest/TransTestModule.h"
 #include "Scenes/TransTest/TransEnd/TransEndModule.h"
 #include "Scenes/OverlayTest/OverlayTestModule.h"
 #include "Scenes/OverlayTest/Overlay/OverlayModule.h"
 #include "Scenes/GestureTest/GestureTestModule.h"
+#include "Scenes/ScheduleTest/ScheduleTestModule.h"
 #include <coconut/MVC.hpp>
 #include <coconut/Actions.hpp>
 #include <coconut/utils/LayoutUtils.h>
@@ -39,6 +41,11 @@ namespace coconut_sample {
 		// Any Scene => Title
 		onSelectBack([]() {
 			MvcBuilder().setMainModule<TitleModule>().prepare(SceneChangers::FlipL(0.5f));
+		});
+		
+		// Title => 15 Puzzle
+		onSelectSlidePuzzle([]() {
+			MvcBuilder().setMainModule<SlidePuzzleModule>().prepare(SceneChangers::FlipR(0.5f));
 		});
 		
 		// Title => TransTest
@@ -87,6 +94,11 @@ namespace coconut_sample {
 		onSelectGestureTest([]() {
 			MvcBuilder().setMainModule<GestureTestModule>().prepare(SceneChangers::FlipR(0.5f));
 		});
+		
+		// Title => ScheduleTest
+		onSelectScheduleTest([]() {
+			MvcBuilder().setMainModule<ScheduleTestModule>().prepare(SceneChangers::FlipR(0.5f));
+		});
 	}
 	
 	void GameManager::initDisplay() {
@@ -134,6 +146,7 @@ namespace coconut_sample {
 		// images
 		ImageManager* imageManager = ImageManager::getInstance();
 		imageManager->addCommonSpriteFrame("ui.plist");
+		imageManager->addTexture("SlidePuzzle", "Puzzle.png");
 		imageManager->prepare();
 		
 		// sounds

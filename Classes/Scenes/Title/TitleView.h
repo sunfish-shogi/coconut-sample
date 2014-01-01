@@ -21,9 +21,11 @@ namespace coconut_sample {
 
 		// event emitters
 		DEFINE_EVENT_EMITTER(SelectClose);
+		DEFINE_EVENT_EMITTER(SelectSlidePuzzle);
 		DEFINE_EVENT_EMITTER(SelectSceneTransTest);
 		DEFINE_EVENT_EMITTER(SelectOverlayTest);
 		DEFINE_EVENT_EMITTER(SelectGestureTest);
+		DEFINE_EVENT_EMITTER(SelectScheduleTest);
 
 	private:
 
