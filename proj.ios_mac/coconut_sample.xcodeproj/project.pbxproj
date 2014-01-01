@@ -673,6 +673,7 @@
 		095638A01871FBA500B66B00 /* TransTest */ = {
 			isa = PBXGroup;
 			children = (
+				095638AB1871FE1500B66B00 /* TransEnd */,
 				095638A11871FBA500B66B00 /* TransTestController.cpp */,
 				095638A21871FBA500B66B00 /* TransTestController.h */,
 				095638A31871FBA500B66B00 /* TransTestModel.cpp */,
@@ -680,7 +681,6 @@
 				095638A51871FBA500B66B00 /* TransTestModule.h */,
 				095638A61871FBA500B66B00 /* TransTestView.cpp */,
 				095638A71871FBA500B66B00 /* TransTestView.h */,
-				095638AB1871FE1500B66B00 /* TransEnd */,
 			);
 			name = TransTest;
 			path = Scenes/TransTest;

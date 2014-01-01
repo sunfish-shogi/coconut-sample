@@ -27,13 +27,13 @@ namespace coconut_sample {
 		_scene = scene;
 		
 		Node* node = Node::create();
-		node->setPosition(LayoutUtils::visibleCenter() - Point(160, 240));
+		node->setPosition(LayoutUtils::visibleCenter() - Point(240, 160));
 		_scene->addChild(node);
 		
 		// background
 		Sprite* bg = Sprite::create("bg.png");
 		bg->setScale(2.0f * ImageUtils::scale4OneSizeImage());
-		bg->setPosition(Point(160, 240));
+		bg->setPosition(Point(240, 160));
 		node->addChild(bg, INT_MIN);
 		
 		// close
@@ -41,12 +41,12 @@ namespace coconut_sample {
 			emitSelectClose();
 		});
 		btnClose->setScale(ImageUtils::scale4OneSizeImage() * 2.0f);
-		btnClose->setPosition(Point(295, 25));
+		btnClose->setPosition(Point(455, 25));
 		node->addChild(btnClose, INT_MAX);
 		
 		// list view
-		const Size vsize(300, 460);
-		const Size esize(300, 42);
+		const Size vsize(460, 300);
+		const Size esize(460, 42);
 		SimpleListView* list = SimpleListView::create(ListDirection::VERTICAL, vsize);
 		
 		Button* btnPuzzle = WidgetUtils::createTTFButton("15 Puzzle", [this]() {

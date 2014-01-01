@@ -40,17 +40,17 @@ namespace coconut_sample {
 		
 		// Any Scene => Title
 		onSelectBack([]() {
-			MvcBuilder().setMainModule<TitleModule>().prepare(SceneChangers::FlipL(0.5f));
+			MvcBuilder().setMainModule<TitleModule>().prepare(SceneChangers::FlipD(0.5f));
 		});
 		
 		// Title => 15 Puzzle
 		onSelectSlidePuzzle([]() {
-			MvcBuilder().setMainModule<SlidePuzzleModule>().prepare(SceneChangers::FlipR(0.5f));
+			MvcBuilder().setMainModule<SlidePuzzleModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 		
 		// Title => TransTest
 		onSelectTransTest([]() {
-			MvcBuilder().setMainModule<TransTestModule>().prepare(SceneChangers::FlipR(0.5f));
+			MvcBuilder().setMainModule<TransTestModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 		
 		// TransTest
@@ -63,7 +63,7 @@ namespace coconut_sample {
 		
 		// Title => OverlayTest
 		onSelectOverlayTest([]() {
-			MvcBuilder().setMainModule<OverlayTestModule>().prepare(SceneChangers::FlipR(0.5f));
+			MvcBuilder().setMainModule<OverlayTestModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 		
 		// Show Overlay
@@ -92,12 +92,12 @@ namespace coconut_sample {
 		
 		// Title => GestureTest
 		onSelectGestureTest([]() {
-			MvcBuilder().setMainModule<GestureTestModule>().prepare(SceneChangers::FlipR(0.5f));
+			MvcBuilder().setMainModule<GestureTestModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 		
 		// Title => ScheduleTest
 		onSelectScheduleTest([]() {
-			MvcBuilder().setMainModule<ScheduleTestModule>().prepare(SceneChangers::FlipR(0.5f));
+			MvcBuilder().setMainModule<ScheduleTestModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 	}
 	

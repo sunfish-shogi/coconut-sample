@@ -26,11 +26,11 @@ namespace coconut_sample {
 		_scene = scene;
 		
 		Node* node = Node::create();
-		node->setPosition(LayoutUtils::visibleCenter() - Point(160, 240));
+		node->setPosition(LayoutUtils::visibleCenter() - Point(240, 160));
 		_scene->addChild(node);
 		
 		// background
-		Point bgPos(160, 240);
+		Point bgPos(240, 160);
 		float bgScale = 2.0f * ImageUtils::scale4OneSizeImage();
 		Sprite* bg = Sprite::create("bg.png");
 		bg->setScale(bgScale);
@@ -41,7 +41,7 @@ namespace coconut_sample {
 		Button* btnBack = WidgetUtils::createTTFButton("Back", "orange", [this]() {
 			emitSelectBack();
 		});
-		btnBack->setPosition(Point(270, 455));
+		btnBack->setPosition(Point(430, 295));
 		node->addChild(btnBack, INT_MAX);
 		
 		// reset button
@@ -50,7 +50,7 @@ namespace coconut_sample {
 			bg->setScale(bgScale);
 			bg->setRotation(0.0f);
 		});
-		btnReset->setPosition(Point(50, 455));
+		btnReset->setPosition(Point(50, 295));
 		node->addChild(btnReset, INT_MAX);
 		
 		// finger gesture

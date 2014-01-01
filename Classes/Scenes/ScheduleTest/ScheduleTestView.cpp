@@ -26,11 +26,11 @@ namespace coconut_sample {
 		_scene = scene;
 		
 		Node* node = Node::create();
-		node->setPosition(LayoutUtils::visibleCenter() - Point(160, 240));
+		node->setPosition(LayoutUtils::visibleCenter() - Point(240, 160));
 		_scene->addChild(node);
 		
 		// background
-		Point bgPos(160, 240);
+		Point bgPos(240, 160);
 		float bgScale = 2.0f * ImageUtils::scale4OneSizeImage();
 		Sprite* bg = Sprite::create("bg.png");
 		bg->setScale(bgScale);
@@ -41,11 +41,11 @@ namespace coconut_sample {
 		Button* btnBack = WidgetUtils::createTTFButton("Back", "orange", [this]() {
 			emitSelectBack();
 		});
-		btnBack->setPosition(Point(270, 455));
+		btnBack->setPosition(Point(430, 295));
 		node->addChild(btnBack, INT_MAX);
 		
 		// image
-		Point imgPos(160, 300);
+		Point imgPos(240, 200);
 		float imgScale = 2.0f * ImageUtils::scale4OneSizeImage();
 		Sprite* image = Sprite::create("Icon.png");
 		image->setScale(imgScale);
@@ -67,7 +67,7 @@ namespace coconut_sample {
 				_scheduleRotate = nullptr;
 			}
 		});
-		btnRotate->setPosition(Point(160, 190));
+		btnRotate->setPosition(Point(240, 90));
 		node->addChild(btnRotate, INT_MAX);
 		
 		Button* btnScale = WidgetUtils::createTTFButton("Scale", [=]() {
@@ -81,7 +81,7 @@ namespace coconut_sample {
 				_scheduleScale = nullptr;
 			}
 		});
-		btnScale->setPosition(Point(160, 140));
+		btnScale->setPosition(Point(240, 40));
 		node->addChild(btnScale, INT_MAX);
 	}
 	
