@@ -121,7 +121,7 @@ namespace coconut_sample {
 		}
 		_shuffleCount++;
 		_shuffleHorizontal = !_shuffleHorizontal;
-		if (_shuffleCount >= 5 && !isCompleted()) {
+		if (_shuffleCount >= 50 && !isCompleted()) {
 			_scheduleManager.cancel(_scheduleShuffle);
 			_status = SlidePuzzleStatus::PLAY;
 		}
