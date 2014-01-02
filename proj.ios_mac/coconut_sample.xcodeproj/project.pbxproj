@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0904A2C21875749B0046879B /* HttpManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0904A2C01875749B0046879B /* HttpManager.cpp */; };
 		090A7D5218742B0C00FEF67D /* ScheduleTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D4B18742B0C00FEF67D /* ScheduleTestController.cpp */; };
 		090A7D5318742B0C00FEF67D /* ScheduleTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D4D18742B0C00FEF67D /* ScheduleTestModel.cpp */; };
 		090A7D5418742B0C00FEF67D /* ScheduleTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090A7D5018742B0C00FEF67D /* ScheduleTestView.cpp */; };
@@ -297,6 +298,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0904A2BE1875749B0046879B /* DefaultHttpEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultHttpEncrypter.h; sourceTree = "<group>"; };
+		0904A2BF1875749B0046879B /* IHttpEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHttpEncrypter.h; sourceTree = "<group>"; };
+		0904A2C01875749B0046879B /* HttpManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpManager.cpp; sourceTree = "<group>"; };
+		0904A2C11875749B0046879B /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
 		090A7D4B18742B0C00FEF67D /* ScheduleTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScheduleTestController.cpp; path = Scenes/ScheduleTest/ScheduleTestController.cpp; sourceTree = "<group>"; };
 		090A7D4C18742B0C00FEF67D /* ScheduleTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleTestController.h; path = Scenes/ScheduleTest/ScheduleTestController.h; sourceTree = "<group>"; };
 		090A7D4D18742B0C00FEF67D /* ScheduleTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScheduleTestModel.cpp; path = Scenes/ScheduleTest/ScheduleTestModel.cpp; sourceTree = "<group>"; };
@@ -563,6 +568,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		0904A2BD1875749B0046879B /* network */ = {
+			isa = PBXGroup;
+			children = (
+				0904A2BE1875749B0046879B /* DefaultHttpEncrypter.h */,
+				0904A2BF1875749B0046879B /* IHttpEncrypter.h */,
+				0904A2C01875749B0046879B /* HttpManager.cpp */,
+				0904A2C11875749B0046879B /* HttpManager.h */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		0904A2C9187579EB0046879B /* NetworkTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetworkTest;
+			sourceTree = "<group>";
+		};
 		090A7D44187427A300FEF67D /* ScheduleTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,6 +675,7 @@
 				09CA0394187179E3008B0C83 /* OverlayTest */,
 				09827AC3187301770043C1C3 /* GestureTest */,
 				090A7D44187427A300FEF67D /* ScheduleTest */,
+				0904A2C9187579EB0046879B /* NetworkTest */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -732,6 +756,7 @@
 				09CA031818717359008B0C83 /* EventEmitter.hpp */,
 				09CA031918717359008B0C83 /* finger_gestures */,
 				09CA031E18717359008B0C83 /* memory */,
+				0904A2BD1875749B0046879B /* network */,
 				09CA032018717359008B0C83 /* Module.hpp */,
 				09CA032118717359008B0C83 /* Modules.hpp */,
 				09CA032218717359008B0C83 /* mvc */,
@@ -1365,6 +1390,7 @@
 				09CA03B418717DDF008B0C83 /* OverlayTestView.cpp in Sources */,
 				095638B41871FEE000B66B00 /* TransEndModel.cpp in Sources */,
 				093587F31871657000797223 /* TitleController.cpp in Sources */,
+				0904A2C21875749B0046879B /* HttpManager.cpp in Sources */,
 				09CA038318717359008B0C83 /* HttpUtils.cpp in Sources */,
 				09CA038C18717359008B0C83 /* BaseListView.cpp in Sources */,
 				09CA039118717359008B0C83 /* BaseTileView.cpp in Sources */,
