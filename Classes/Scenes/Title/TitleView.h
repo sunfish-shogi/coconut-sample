@@ -26,6 +26,7 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER(SelectOverlayTest);
 		DEFINE_EVENT_EMITTER(SelectGestureTest);
 		DEFINE_EVENT_EMITTER(SelectScheduleTest);
+		DEFINE_EVENT_EMITTER(SelectNetworkTest);
 
 	private:
 

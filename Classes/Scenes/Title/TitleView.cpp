@@ -74,6 +74,11 @@ namespace coconut_sample {
 		});
 		list->addElement(btnSchedule, esize);
 		
+		Button* btnNetwork = WidgetUtils::createTTFButton("Network Test", [this]() {
+			emitSelectNetworkTest();
+		});
+		list->addElement(btnNetwork, esize);
+		
 		list->setPosition(Point(10, 10));
 		node->addChild(list, 0);
 	}

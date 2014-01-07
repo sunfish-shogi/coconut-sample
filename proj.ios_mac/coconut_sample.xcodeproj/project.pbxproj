@@ -72,6 +72,9 @@
 		09CA03CC1871954B008B0C83 /* OverlayController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03C51871954B008B0C83 /* OverlayController.cpp */; };
 		09CA03CD1871954B008B0C83 /* OverlayModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03C71871954B008B0C83 /* OverlayModel.cpp */; };
 		09CA03CE1871954B008B0C83 /* OverlayView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CA03CA1871954B008B0C83 /* OverlayView.cpp */; };
+		09DB74ED187BA0E500E03078 /* NetworkTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09DB74E6187BA0E500E03078 /* NetworkTestController.cpp */; };
+		09DB74EE187BA0E500E03078 /* NetworkTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09DB74E8187BA0E500E03078 /* NetworkTestModel.cpp */; };
+		09DB74EF187BA0E500E03078 /* NetworkTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09DB74EB187BA0E500E03078 /* NetworkTestView.cpp */; };
 		1AC6FB1F180E996B004C840B /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFF180E9839004C840B /* libbox2d Mac.a */; };
 		1AC6FB20180E996B004C840B /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFD180E9839004C840B /* libchipmunk Mac.a */; };
 		1AC6FB21180E996B004C840B /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2dx Mac.a */; };
@@ -457,6 +460,13 @@
 		09CA03C91871954B008B0C83 /* OverlayModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayModule.h; path = Scenes/OverlayTest/Overlay/OverlayModule.h; sourceTree = "<group>"; };
 		09CA03CA1871954B008B0C83 /* OverlayView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OverlayView.cpp; path = Scenes/OverlayTest/Overlay/OverlayView.cpp; sourceTree = "<group>"; };
 		09CA03CB1871954B008B0C83 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = Scenes/OverlayTest/Overlay/OverlayView.h; sourceTree = "<group>"; };
+		09DB74E6187BA0E500E03078 /* NetworkTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkTestController.cpp; path = Scenes/NetworkTest/NetworkTestController.cpp; sourceTree = "<group>"; };
+		09DB74E7187BA0E500E03078 /* NetworkTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkTestController.h; path = Scenes/NetworkTest/NetworkTestController.h; sourceTree = "<group>"; };
+		09DB74E8187BA0E500E03078 /* NetworkTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkTestModel.cpp; path = Scenes/NetworkTest/NetworkTestModel.cpp; sourceTree = "<group>"; };
+		09DB74E9187BA0E500E03078 /* NetworkTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkTestModel.h; path = Scenes/NetworkTest/NetworkTestModel.h; sourceTree = "<group>"; };
+		09DB74EA187BA0E500E03078 /* NetworkTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkTestModule.h; path = Scenes/NetworkTest/NetworkTestModule.h; sourceTree = "<group>"; };
+		09DB74EB187BA0E500E03078 /* NetworkTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkTestView.cpp; path = Scenes/NetworkTest/NetworkTestView.cpp; sourceTree = "<group>"; };
+		09DB74EC187BA0E500E03078 /* NetworkTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkTestView.h; path = Scenes/NetworkTest/NetworkTestView.h; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../../../build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -582,6 +592,13 @@
 		0904A2C9187579EB0046879B /* NetworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				09DB74E6187BA0E500E03078 /* NetworkTestController.cpp */,
+				09DB74E7187BA0E500E03078 /* NetworkTestController.h */,
+				09DB74E8187BA0E500E03078 /* NetworkTestModel.cpp */,
+				09DB74E9187BA0E500E03078 /* NetworkTestModel.h */,
+				09DB74EA187BA0E500E03078 /* NetworkTestModule.h */,
+				09DB74EB187BA0E500E03078 /* NetworkTestView.cpp */,
+				09DB74EC187BA0E500E03078 /* NetworkTestView.h */,
 			);
 			name = NetworkTest;
 			sourceTree = "<group>";
@@ -1368,6 +1385,7 @@
 				093587B51871645A00797223 /* GameManager.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				095638A91871FBA500B66B00 /* TransTestModel.cpp in Sources */,
+				09DB74ED187BA0E500E03078 /* NetworkTestController.cpp in Sources */,
 				09CA037318717359008B0C83 /* ScaleToY.cpp in Sources */,
 				09CA037A18717359008B0C83 /* Random.cpp in Sources */,
 				090A7D5218742B0C00FEF67D /* ScheduleTestController.cpp in Sources */,
@@ -1379,12 +1397,14 @@
 				090A7D6618743E1300FEF67D /* Position.cpp in Sources */,
 				09CA037118717359008B0C83 /* Rotate.cpp in Sources */,
 				09CA038F18717359008B0C83 /* EnlargedSlider.cpp in Sources */,
+				09DB74EE187BA0E500E03078 /* NetworkTestModel.cpp in Sources */,
 				09CA037B18717359008B0C83 /* FileAlias.cpp in Sources */,
 				09CA03B318717DDF008B0C83 /* OverlayTestModel.cpp in Sources */,
 				09CA038E18717359008B0C83 /* ScrollLayer.cpp in Sources */,
 				09CA038018717359008B0C83 /* StringSplitter.cpp in Sources */,
 				09827ADD187302AF0043C1C3 /* GestureTestView.cpp in Sources */,
 				09CA03CD1871954B008B0C83 /* OverlayModel.cpp in Sources */,
+				09DB74EF187BA0E500E03078 /* NetworkTestView.cpp in Sources */,
 				09CA038B18717359008B0C83 /* CheckBox.cpp in Sources */,
 				09CA037E18717359008B0C83 /* Schedule.cpp in Sources */,
 				09CA03B418717DDF008B0C83 /* OverlayTestView.cpp in Sources */,

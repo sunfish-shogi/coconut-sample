@@ -41,6 +41,9 @@ namespace coconut_sample {
 		_view->onSelectScheduleTest([=]() {
 			GameManager::getInstance()->emitSelectScheduleTest();
 		});
+		_view->onSelectNetworkTest([=]() {
+			GameManager::getInstance()->emitSelectNetworkTest();
+		});
 	}
 
 }

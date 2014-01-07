@@ -16,6 +16,7 @@
 #include "Scenes/OverlayTest/Overlay/OverlayModule.h"
 #include "Scenes/GestureTest/GestureTestModule.h"
 #include "Scenes/ScheduleTest/ScheduleTestModule.h"
+#include "Scenes/NetworkTest/NetworkTestModule.h"
 #include <coconut/MVC.hpp>
 #include <coconut/Actions.hpp>
 #include <coconut/utils/LayoutUtils.h>
@@ -98,6 +99,11 @@ namespace coconut_sample {
 		// Title => ScheduleTest
 		onSelectScheduleTest([]() {
 			MvcBuilder().setMainModule<ScheduleTestModule>().prepare(SceneChangers::FlipU(0.5f));
+		});
+		
+		// Title => NetworkTest
+		onSelectNetworkTest([]() {
+			MvcBuilder().setMainModule<NetworkTestModule>().prepare(SceneChangers::FlipU(0.5f));
 		});
 	}
 	

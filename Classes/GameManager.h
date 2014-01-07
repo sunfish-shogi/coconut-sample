@@ -36,6 +36,8 @@ namespace coconut_sample {
 		
 		DEFINE_EVENT_EMITTER(SelectScheduleTest);
 		
+		DEFINE_EVENT_EMITTER(SelectNetworkTest);
+		
 	private:
 		
 		std::stack<cocos2d::Action*> _actionStack;
