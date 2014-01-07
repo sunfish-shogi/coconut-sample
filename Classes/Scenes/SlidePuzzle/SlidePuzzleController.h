@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__SlidePuzzleController__
 #define __coconut_sample__SlidePuzzleController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(SlidePuzzleView*, _view, View);
+		PROPERTY(SlidePuzzleModel*, _model, Model);
 
-		SlidePuzzleView* _view;
-		SlidePuzzleModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		SlidePuzzleController();
 		virtual ~SlidePuzzleController();
-		void setView(SlidePuzzleView* view) {
-			_view = view;
-		}
-		void setModel(SlidePuzzleModel* model) {
-			_model = model;
-		}
 		void init();
 		void start();
 

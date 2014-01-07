@@ -10,6 +10,7 @@
 #define __coconut_sample__TransTestView__
 
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 #include <coconut/widgets/tile_view/SimpleTileView.h>
@@ -24,9 +25,10 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER(SelectBack);
 		DEFINE_EVENT_EMITTER_WITH_ARG(SelectTrans, const coconut::SceneChanger&);
 
+		PROPERTY(TransTestModel*, _model, Model);
+		
 	private:
 
-		TransTestModel* _model;
 		cocos2d::Scene* _scene;
 		
 	protected:
@@ -35,9 +37,6 @@ namespace coconut_sample {
 		
 		TransTestView();
 		virtual ~TransTestView();
-		void setModel(TransTestModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

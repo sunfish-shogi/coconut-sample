@@ -10,6 +10,7 @@
 #define __coconut_sample__OverlayTestView__
 
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
@@ -22,14 +23,15 @@ namespace coconut_sample {
 		// event emitters
 		DEFINE_EVENT_EMITTER(SelectBack);
 		DEFINE_EVENT_EMITTER(SelectNormal);
-		DEFINE_EVENT_EMITTER(SelectSlideInDown);
-		DEFINE_EVENT_EMITTER(SelectSlideInUp);
+		DEFINE_EVENT_EMITTER(SelectSlideInTop);
+		DEFINE_EVENT_EMITTER(SelectSlideInBottom);
 		DEFINE_EVENT_EMITTER(SelectSlideInLeft);
 		DEFINE_EVENT_EMITTER(SelectSlideInRight);
 
+		PROPERTY(OverlayTestModel*, _model, Model);
+		
 	private:
 
-		OverlayTestModel* _model;
 		cocos2d::Scene* _scene;
 
 	protected:
@@ -38,9 +40,6 @@ namespace coconut_sample {
 		
 		OverlayTestView();
 		virtual ~OverlayTestView();
-		void setModel(OverlayTestModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

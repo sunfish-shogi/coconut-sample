@@ -84,9 +84,6 @@ namespace coconut_sample {
 		_model->onReset([this]() {
 			reset();
 		});
-		_model->onSet([this](const Position& pos) {
-			set(pos);
-		});
 		_model->onSlide([this](const Position& pos) {
 			slide(pos);
 		});
@@ -100,12 +97,13 @@ namespace coconut_sample {
 	}
 	
 	Rect SlidePuzzleView::getRect(const Position& piece) const {
+		float scale = 2.0f * ImageUtils::scale4OneSizeImage();
 		float width = IMAGE_WIDTH / _model->getWidth();
 		float height = IMAGE_HEIGHT / _model->getHeight();
-		return Rect(piece.x * width + 2.0f,
-								IMAGE_HEIGHT - (piece.y+1) * height + 2.0f,
-								width - 4.0f,
-								height - 4.0f);
+		return Rect((piece.x * width + 2.0f) / scale,
+								(IMAGE_HEIGHT - (piece.y+1) * height + 2.0f) / scale,
+								(width - 4.0f) / scale,
+								(height - 4.0f) / scale);
 	}
 	
 	Point SlidePuzzleView::getPosition(const Position& piece) const {
@@ -117,18 +115,22 @@ namespace coconut_sample {
 	
 	void SlidePuzzleView::reset() {
 		_piecesBatch->removeAllChildrenWithCleanup(true);
+		for (int x = 0; x < _model->getWidth(); x++) {
+			for (int y = 0; y < _model->getHeight(); y++) {
+				Position pos(x, y);
+				Position piece = _model->getPieces().get(pos);
+				if (!IS_EMPTY(piece)) {
+					int tag = getTag(piece);
+					Rect rect = getRect(piece);
+					Sprite* sprite = Sprite::createWithTexture(_piecesTexture, rect);
+					sprite->setScale(2.0f * ImageUtils::scale4OneSizeImage());
+					sprite->setPosition(getPosition(piece));
+					_piecesBatch->addChild(sprite, 0, tag);
+				}
+			}
+		}
 	}
 	
-	void SlidePuzzleView::set(const Position& pos) {
-		Position piece = _model->getPieces().get(pos);
-		int tag = getTag(piece);
-		Rect rect = getRect(piece);
-		Sprite* sprite = Sprite::createWithTexture(_piecesTexture, rect);
-		sprite->setScale(2.0f * ImageUtils::scale4OneSizeImage());
-		sprite->setPosition(getPosition(piece));
-		_piecesBatch->addChild(sprite, 0, tag);
-	}
-
 	void SlidePuzzleView::slide(const Position& pos) {
 		Position piece = _model->getPieces().get(pos);
 		int tag = getTag(piece);

@@ -10,6 +10,7 @@
 #define __coconut_sample__TransEndView__
 
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
@@ -22,9 +23,10 @@ namespace coconut_sample {
 		// event emitters
 		DEFINE_EVENT_EMITTER(SelectBack);
 
+		PROPERTY(TransEndModel*, _model, Model);
+		
 	private:
 
-		TransEndModel* _model;
 		cocos2d::Scene* _scene;
 
 	protected:
@@ -33,9 +35,6 @@ namespace coconut_sample {
 		
 		TransEndView();
 		virtual ~TransEndView();
-		void setModel(TransEndModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

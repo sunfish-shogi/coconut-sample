@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__NetworkTestController__
 #define __coconut_sample__NetworkTestController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(NetworkTestView*, _view, View);
+		PROPERTY(NetworkTestModel*, _model, Model);
 
-		NetworkTestView* _view;
-		NetworkTestModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		NetworkTestController();
 		virtual ~NetworkTestController();
-		void setView(NetworkTestView* view) {
-			_view = view;
-		}
-		void setModel(NetworkTestModel* model) {
-			_model = model;
-		}
 		void init();
 
 	};

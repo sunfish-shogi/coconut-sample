@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__TitleController__
 #define __coconut_sample__TitleController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(TitleView*, _view, View);
+		PROPERTY(TitleModel*, _model, Model);
 
-		TitleView* _view;
-		TitleModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		TitleController();
 		virtual ~TitleController();
-		void setView(TitleView* view) {
-			_view = view;
-		}
-		void setModel(TitleModel* model) {
-			_model = model;
-		}
 		void init();
 
 	};

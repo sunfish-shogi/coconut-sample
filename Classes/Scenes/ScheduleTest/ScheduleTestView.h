@@ -10,6 +10,7 @@
 #define __coconut_sample__ScheduleTestView__
 
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 #include <coconut/schedule/ScheduleManager.h>
@@ -23,9 +24,10 @@ namespace coconut_sample {
 		// event emitters
 		DEFINE_EVENT_EMITTER(SelectBack);
 
+		PROPERTY(ScheduleTestModel*, _model, Model);
+		
 	private:
 
-		ScheduleTestModel* _model;
 		cocos2d::Scene* _scene;
 		
 		coconut::ScheduleManager _scheduleManager;
@@ -39,9 +41,6 @@ namespace coconut_sample {
 		
 		ScheduleTestView();
 		virtual ~ScheduleTestView();
-		void setModel(ScheduleTestModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

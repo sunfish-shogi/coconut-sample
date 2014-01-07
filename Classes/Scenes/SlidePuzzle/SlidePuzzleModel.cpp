@@ -42,15 +42,6 @@ namespace coconut_sample {
 		
 		emitReset();
 		
-		for (int x = 0; x < _width; x++) {
-			for (int y = 0; y < _height; y++) {
-				Position piece = _pieces.get(x, y);
-				if (!IS_EMPTY(piece)) {
-					emitSet(piece);
-				}
-			}
-		}
-		
 		_scheduleManager.clear();
 		shuffle();
 	}

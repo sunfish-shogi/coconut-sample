@@ -10,6 +10,7 @@
 #define __coconut_sample__NetworkTestView__
 
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 #include <coconut/network/HttpManager.h>
@@ -23,9 +24,10 @@ namespace coconut_sample {
 		// event emitters
 		DEFINE_EVENT_EMITTER(SelectBack);
 
+		PROPERTY(NetworkTestModel*, _model, Model);
+		
 	private:
 
-		NetworkTestModel* _model;
 		cocos2d::Scene* _scene;
 		coconut::HttpManager _http;
 		
@@ -37,9 +39,6 @@ namespace coconut_sample {
 		
 		NetworkTestView();
 		virtual ~NetworkTestView();
-		void setModel(NetworkTestModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

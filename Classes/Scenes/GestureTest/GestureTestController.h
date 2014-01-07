@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__GestureTestController__
 #define __coconut_sample__GestureTestController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(GestureTestView*, _view, View);
+		PROPERTY(GestureTestModel*, _model, Model);
 
-		GestureTestView* _view;
-		GestureTestModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		GestureTestController();
 		virtual ~GestureTestController();
-		void setView(GestureTestView* view) {
-			_view = view;
-		}
-		void setModel(GestureTestModel* model) {
-			_model = model;
-		}
 		void init();
 
 	};

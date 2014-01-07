@@ -11,6 +11,7 @@
 
 #include "Array2d/Position.h"
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 #include <coconut/finger_gestures/FingerGesture.h>
@@ -26,9 +27,10 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER(SelectReset);
 		DEFINE_EVENT_EMITTER_WITH_ARG(Touch, const Position&);
 
+		PROPERTY(SlidePuzzleModel*, _model, Model);
+		
 	private:
 
-		SlidePuzzleModel* _model;
 		cocos2d::Scene* _scene;
 		cocos2d::Texture2D* _piecesTexture;
 		cocos2d::SpriteBatchNode* _piecesBatch;
@@ -41,7 +43,6 @@ namespace coconut_sample {
 		coconut::FingerGesture _fingerGesture;
 		
 		void reset();
-		void set(const Position& pos);
 		void slide(const Position& pos);
 		void complete();
 		
@@ -51,9 +52,6 @@ namespace coconut_sample {
 		
 		SlidePuzzleView();
 		virtual ~SlidePuzzleView();
-		void setModel(SlidePuzzleModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

@@ -9,6 +9,7 @@
 #ifndef __coconut_sample__ScheduleTestController__
 #define __coconut_sample__ScheduleTestController__
 
+#include <coconut/Macro.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 
 namespace coconut_sample {
@@ -21,10 +22,10 @@ namespace coconut_sample {
 		// event emitters
 //		DEFINE_EVENT_EMITTER(/* event name */);
 
-	private:
+		PROPERTY(ScheduleTestView*, _view, View);
+		PROPERTY(ScheduleTestModel*, _model, Model);
 
-		ScheduleTestView* _view;
-		ScheduleTestModel* _model;
+	private:
 
 	protected:
 
@@ -32,12 +33,6 @@ namespace coconut_sample {
 
 		ScheduleTestController();
 		virtual ~ScheduleTestController();
-		void setView(ScheduleTestView* view) {
-			_view = view;
-		}
-		void setModel(ScheduleTestModel* model) {
-			_model = model;
-		}
 		void init();
 
 	};

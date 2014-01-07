@@ -29,7 +29,6 @@ namespace coconut_sample {
 
 		// event emitters
 		DEFINE_EVENT_EMITTER(Reset);
-		DEFINE_EVENT_EMITTER_WITH_ARG(Set, const Position&);
 		DEFINE_EVENT_EMITTER_WITH_ARG(Slide, const Position&);
 		DEFINE_EVENT_EMITTER(Complete);
 

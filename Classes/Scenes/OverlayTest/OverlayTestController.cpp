@@ -30,11 +30,11 @@ namespace coconut_sample {
 		_view->onSelectNormal([]() {
 			GameManager::getInstance()->emitOverlayOpen(nullptr, nullptr);
 		});
-		_view->onSelectSlideInDown([]() {
-			GameManager::getInstance()->emitOverlayOpen(SlideIn::down(0.5f), SlideOut::up(0.5f));
+		_view->onSelectSlideInTop([]() {
+			GameManager::getInstance()->emitOverlayOpen(SlideIn::top(0.5f), SlideOut::top(0.5f));
 		});
-		_view->onSelectSlideInUp([]() {
-			GameManager::getInstance()->emitOverlayOpen(SlideIn::up(0.5f), SlideOut::down(0.5f));
+		_view->onSelectSlideInBottom([]() {
+			GameManager::getInstance()->emitOverlayOpen(SlideIn::bottom(0.5f), SlideOut::bottom(0.5f));
 		});
 		_view->onSelectSlideInLeft([]() {
 			GameManager::getInstance()->emitOverlayOpen(SlideIn::left(0.5f), SlideOut::left(0.5f));

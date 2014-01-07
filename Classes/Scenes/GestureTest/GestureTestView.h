@@ -10,6 +10,7 @@
 #define __coconut_sample__GestureTestView__
 
 #include "cocos2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/scene/SceneChanger.hpp>
 #include <coconut/finger_gestures/FingerGesture.h>
@@ -23,9 +24,10 @@ namespace coconut_sample {
 		// event emitters
 		DEFINE_EVENT_EMITTER(SelectBack);
 
+		PROPERTY(GestureTestModel*, _model, Model);
+		
 	private:
 
-		GestureTestModel* _model;
 		cocos2d::Scene* _scene;
 		coconut::FingerGesture _fingerGesture;
 
@@ -35,9 +37,6 @@ namespace coconut_sample {
 		
 		GestureTestView();
 		virtual ~GestureTestView();
-		void setModel(GestureTestModel* model) {
-			_model = model;
-		}
 		void init(cocos2d::Scene* scene);
 		
 	};

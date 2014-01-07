@@ -54,17 +54,17 @@ namespace coconut_sample {
 		});
 		list->addElement(btnNormal, esize);
 		
-		// slide in (down)
-		Button* btnDown = WidgetUtils::createTTFButton("Slide In Down", [this]() {
-			emitSelectSlideInDown();
+		// slide in (top)
+		Button* btnTop = WidgetUtils::createTTFButton("Slide In Top", [this]() {
+			emitSelectSlideInTop();
 		});
-		list->addElement(btnDown, esize);
+		list->addElement(btnTop, esize);
 		
-		// slide in (up)
-		Button* btnUp = WidgetUtils::createTTFButton("Slide In Up", [this]() {
-			emitSelectSlideInUp();
+		// slide in (bottom)
+		Button* btnBottom = WidgetUtils::createTTFButton("Slide In Bottom", [this]() {
+			emitSelectSlideInBottom();
 		});
-		list->addElement(btnUp, esize);
+		list->addElement(btnBottom, esize);
 		
 		// slide in (left)
 		Button* btnLeft = WidgetUtils::createTTFButton("Slide In Left", [this]() {
