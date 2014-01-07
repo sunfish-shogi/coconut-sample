@@ -119,11 +119,11 @@ namespace coconut_sample {
 		
 		searchPath.push_back("images/common");
 		searchPath.push_back("images_dev/common");
-		if (frameSize.height > 1536) {
+		if (frameSize.width > 1536) {
 			// iPad Retina
 			contentScale = CONTENT_SCALE_LARGE;
 			searchPath.push_back("images/large");
-		} else if (frameSize.height > 768) {
+		} else if (frameSize.width > 768) {
 			// iPhone Retina, iPad
 			contentScale = CONTENT_SCALE_NORMAL;
 			searchPath.push_back("images/normal");
@@ -141,8 +141,8 @@ namespace coconut_sample {
 		
 		// design resolution
 		const Size& size = Director::getInstance()->getVisibleSize();
-		float width = DESIGN_RESOL_WIDTH(size.width / contentScale);
-		float height = size.height * width / size.width;
+		float height = DESIGN_RESOL_HEIGHT(size.height / contentScale);
+		float width = size.width * height / size.height;
 		eglView->setDesignResolutionSize(width, height, ResolutionPolicy::SHOW_ALL);
 		
 		log("[frame] %f, %f", frameSize.width, frameSize.height);
