@@ -28,7 +28,7 @@ namespace coconut_sample {
 	void SlidePuzzleModel::reset() {
 		_status = SlidePuzzleStatus::INIT;
 		
-		_scheduleManager.clear();
+		_scheduleManager->clear();
 		
 		_pieces.resize(_width, _height);
 		for (int x = 0; x < _width; x++) {
@@ -42,7 +42,7 @@ namespace coconut_sample {
 		
 		emitReset();
 		
-		_scheduleManager.clear();
+		_scheduleManager->clear();
 		shuffle();
 	}
 	
@@ -93,7 +93,7 @@ namespace coconut_sample {
 		_status = SlidePuzzleStatus::SHUFFLE;
 		_shuffleCount = 0;
 		_shuffleHorizontal = false;
-		_scheduleShuffle = _scheduleManager.scheduleForever(0.15f, 1.0f, [this]() {
+		_scheduleShuffle = _scheduleManager->scheduleForever(0.15f, 1.0f, [this]() {
 			shuffleProc();
 		});
 	}
@@ -113,7 +113,7 @@ namespace coconut_sample {
 		_shuffleCount++;
 		_shuffleHorizontal = !_shuffleHorizontal;
 		if (_shuffleCount >= 50 && !isCompleted()) {
-			_scheduleManager.cancel(_scheduleShuffle);
+			_scheduleManager->cancel(_scheduleShuffle);
 			_status = SlidePuzzleStatus::PLAY;
 		}
 	}

@@ -31,6 +31,8 @@ namespace coconut_sample {
 			inject<ScheduleTestView, ScheduleTestModel>(&ScheduleTestView::setModel);
 			inject<ScheduleTestController, ScheduleTestModel>(&ScheduleTestController::setModel);
 			inject<ScheduleTestController, ScheduleTestView>(&ScheduleTestController::setView);
+			
+			inject<ScheduleTestView, coconut::ScheduleManager>(&ScheduleTestView::setScheduleManager);
 		}
 		
 		virtual void prepareModule() final override {

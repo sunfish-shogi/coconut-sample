@@ -31,6 +31,8 @@ namespace coconut_sample {
 			inject<SlidePuzzleView, SlidePuzzleModel>(&SlidePuzzleView::setModel);
 			inject<SlidePuzzleController, SlidePuzzleModel>(&SlidePuzzleController::setModel);
 			inject<SlidePuzzleController, SlidePuzzleView>(&SlidePuzzleController::setView);
+			
+			inject<SlidePuzzleModel, coconut::ScheduleManager>(&SlidePuzzleModel::setScheduleManager);
 		}
 		
 		virtual void prepareModule() final override {

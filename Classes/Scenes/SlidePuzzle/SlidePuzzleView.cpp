@@ -30,6 +30,9 @@ namespace coconut_sample {
 		}
 	}
 
+	/**********************************************************
+	 * initialization                                         *
+	 **********************************************************/
 	void SlidePuzzleView::init(Scene* scene) {
 		_scene = scene;
 		
@@ -92,6 +95,9 @@ namespace coconut_sample {
 		});
 	}
 	
+	/**********************************************************
+	 * functions                                              *
+	 **********************************************************/
 	int SlidePuzzleView::getTag(const Position& piece) const {
 		return piece.x + piece.y * _model->getWidth();
 	}
@@ -113,6 +119,9 @@ namespace coconut_sample {
 		return _pieceBase + offset + Point(piece.x * width, piece.y * height);
 	}
 	
+	/**********************************************************
+	 * event handlers                                         *
+	 **********************************************************/
 	void SlidePuzzleView::reset() {
 		_piecesBatch->removeAllChildrenWithCleanup(true);
 		for (int x = 0; x < _model->getWidth(); x++) {

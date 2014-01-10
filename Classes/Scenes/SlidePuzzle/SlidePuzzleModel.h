@@ -10,6 +10,7 @@
 #define __coconut_sample__SlidePuzzleModel__
 
 #include "Array2d/Array2d.h"
+#include <coconut/Macro.hpp>
 #include <coconut/EventEmitter.hpp>
 #include <coconut/schedule/ScheduleManager.h>
 
@@ -32,6 +33,8 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER_WITH_ARG(Slide, const Position&);
 		DEFINE_EVENT_EMITTER(Complete);
 
+		PROPERTY(coconut::ScheduleManager*, _scheduleManager, ScheduleManager);
+		
 	private:
 		
 		SlidePuzzleStatus _status;
@@ -42,7 +45,6 @@ namespace coconut_sample {
 		int _shuffleCount;
 		bool _shuffleHorizontal;
 		
-		coconut::ScheduleManager _scheduleManager;
 		const coconut::Schedule* _scheduleShuffle;
 		
 		bool slideForce(const Position& pos);

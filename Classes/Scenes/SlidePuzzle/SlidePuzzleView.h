@@ -34,13 +34,12 @@ namespace coconut_sample {
 		cocos2d::Scene* _scene;
 		cocos2d::Texture2D* _piecesTexture;
 		cocos2d::SpriteBatchNode* _piecesBatch;
-		
+		coconut::FingerGesture _fingerGesture;
 		cocos2d::Point _pieceBase;
+		
 		int getTag(const Position& piece) const;
 		cocos2d::Rect getRect(const Position& piece) const;
 		cocos2d::Point getPosition(const Position& piece) const;
-		
-		coconut::FingerGesture _fingerGesture;
 		
 		void reset();
 		void slide(const Position& pos);

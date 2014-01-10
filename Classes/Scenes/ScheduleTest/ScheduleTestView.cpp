@@ -59,11 +59,11 @@ namespace coconut_sample {
 		
 		Button* btnRotate = WidgetUtils::createTTFButton("Rotate", [=]() {
 			if (!_scheduleRotate) {
-				_scheduleRotate = _scheduleManager.scheduleForever(0.5f, 0.0f, [=]() {
+				_scheduleRotate = _scheduleManager->scheduleForever(0.5f, 0.0f, [=]() {
 					image->setRotation(image->getRotation() + 30.0f);
 				});
 			} else {
-				_scheduleManager.cancel(_scheduleRotate);
+				_scheduleManager->cancel(_scheduleRotate);
 				_scheduleRotate = nullptr;
 			}
 		});
@@ -72,12 +72,12 @@ namespace coconut_sample {
 		
 		Button* btnScale = WidgetUtils::createTTFButton("Scale", [=]() {
 			if (!_scheduleScale) {
-				_scheduleScale = _scheduleManager.scheduleForever(0.5f, 0.0f, [=]() {
+				_scheduleScale = _scheduleManager->scheduleForever(0.5f, 0.0f, [=]() {
 					_scaleCount += 1.0f;
 					image->setScale(imgScale * (sinf(_scaleCount * M_PI / 6.0f) * 0.5f + 1.0f));
 				});
 			} else {
-				_scheduleManager.cancel(_scheduleScale);
+				_scheduleManager->cancel(_scheduleScale);
 				_scheduleScale = nullptr;
 			}
 		});

@@ -25,12 +25,12 @@ namespace coconut_sample {
 		DEFINE_EVENT_EMITTER(SelectBack);
 
 		PROPERTY(ScheduleTestModel*, _model, Model);
+		PROPERTY(coconut::ScheduleManager*, _scheduleManager, ScheduleManager);
 		
 	private:
 
 		cocos2d::Scene* _scene;
 		
-		coconut::ScheduleManager _scheduleManager;
 		const coconut::Schedule* _scheduleRotate;
 		const coconut::Schedule* _scheduleScale;
 		float _scaleCount;
