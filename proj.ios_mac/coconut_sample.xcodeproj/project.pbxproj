@@ -591,13 +591,13 @@
 		09393895187E6AC600433FAA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				09393896187E6AC600433FAA /* GestureTest */,
-				0939389E187E6AC600433FAA /* NetworkTest */,
-				093938A6187E6AC700433FAA /* OverlayTest */,
-				093938B6187E6AC700433FAA /* ScheduleTest */,
-				093938BE187E6AC700433FAA /* SlidePuzzle */,
 				093938CA187E6AC700433FAA /* Title */,
+				093938BE187E6AC700433FAA /* SlidePuzzle */,
 				093938D2187E6AC700433FAA /* TransTest */,
+				093938A6187E6AC700433FAA /* OverlayTest */,
+				09393896187E6AC600433FAA /* GestureTest */,
+				093938B6187E6AC700433FAA /* ScheduleTest */,
+				0939389E187E6AC600433FAA /* NetworkTest */,
 			);
 			name = Scenes;
 			path = ../Classes/Scenes;
