@@ -42,13 +42,14 @@ namespace coconut_sample {
 		int _height;
 		Array2d<Position> _pieces;
 		Position _emptyPos;
+		bool _lock;
 		int _shuffleCount;
 		bool _shuffleHorizontal;
 		
 		const coconut::Schedule* _scheduleShuffle;
 		
-		bool slideForce(const Position& pos);
-		void slide(const Position& endPos, Direction dir);
+		bool slide_p(const Position& pos);
+		bool slide_p(const Position& endPos, Direction dir);
 		void shuffleProc();
 		void check();
 		bool isCompleted();

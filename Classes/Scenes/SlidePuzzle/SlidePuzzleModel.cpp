@@ -7,6 +7,7 @@
 //
 
 #include "SlidePuzzleModel.h"
+#include "SlidePuzzle.h"
 #include <coconut/random/Random.h>
 
 USING_NS_CC;
@@ -23,6 +24,7 @@ namespace coconut_sample {
 	void SlidePuzzleModel::init() {
 		_width = 4;
 		_height = 4;
+		_lock = false;
 	}
 
 	void SlidePuzzleModel::reset() {
@@ -47,39 +49,43 @@ namespace coconut_sample {
 	}
 	
 	bool SlidePuzzleModel::slide(const Position& pos) {
-		if (_status != SlidePuzzleStatus::PLAY) {
+		if (_status != SlidePuzzleStatus::PLAY || _lock) {
 			return false;
 		}
-		return slideForce(pos);
+		if (slide_p(pos)) {
+			_lock = true;
+			_scheduleManager->scheduleOnce(TIME_SLIDE, [this]() {
+				_lock = false;
+			});
+			return true;
+		}
+		return false;
 	}
 	
-	bool SlidePuzzleModel::slideForce(const Position& pos) {
+	bool SlidePuzzleModel::slide_p(const Position& pos) {
 		if (!_pieces.isValid(pos)) {
 			return false;
 		}
 		if (pos.x == _emptyPos.x) {
 			if (pos.y > _emptyPos.y) {
-				slide(pos, Direction::UP);
-				return true;
+				return slide_p(pos, Direction::UP);
 			} else if (pos.y < _emptyPos.y) {
-				slide(pos, Direction::DOWN);
-				return true;
+				return slide_p(pos, Direction::DOWN);
 			}
-			return false;
 		} else if (pos.y == _emptyPos.y) {
 			if (pos.x > _emptyPos.x) {
-				slide(pos, Direction::RIGHT);
-				return true;
+				return slide_p(pos, Direction::RIGHT);
 			} else if (pos.x < _emptyPos.x) {
-				slide(pos, Direction::LEFT);
-				return true;
+				return slide_p(pos, Direction::LEFT);
 			}
-			return false;
 		}
 		return false;
 	}
 	
-	void SlidePuzzleModel::slide(const Position& endPos, Direction dir) {
+	bool SlidePuzzleModel::slide_p(const Position& endPos, Direction dir) {
+		if (_lock) {
+			return false;
+		}
 		for (Position pos = _emptyPos; pos != endPos; pos = pos.at(dir)) {
 			_pieces.get(pos) = _pieces.get(pos.at(dir));
 			emitSlide(pos);
@@ -87,13 +93,14 @@ namespace coconut_sample {
 		_emptyPos = endPos;
 		_pieces.get(endPos) = EMPTY_PIECE;
 		check();
+		return true;
 	}
 
 	void SlidePuzzleModel::shuffle() {
 		_status = SlidePuzzleStatus::SHUFFLE;
 		_shuffleCount = 0;
 		_shuffleHorizontal = false;
-		_scheduleShuffle = _scheduleManager->scheduleForever(0.15f, 1.0f, [this]() {
+		_scheduleShuffle = _scheduleManager->scheduleForever(TIME_SLIDE, 1.0f, [this]() {
 			shuffleProc();
 		});
 	}
@@ -103,25 +110,29 @@ namespace coconut_sample {
 			RandomInt r(0, _width - 2);
 			int x = r();
 			if (x >= _emptyPos.x) { x++; }
-			slideForce(Position(x, _emptyPos.y));
+			slide_p(Position(x, _emptyPos.y));
 		} else {
 			RandomInt r(0, _height - 2);
 			int y = r();
 			if (y >= _emptyPos.y) { y++; }
-			slideForce(Position(_emptyPos.x, y));
+			slide_p(Position(_emptyPos.x, y));
 		}
 		_shuffleCount++;
 		_shuffleHorizontal = !_shuffleHorizontal;
 		if (_shuffleCount >= 50 && !isCompleted()) {
 			_scheduleManager->cancel(_scheduleShuffle);
-			_status = SlidePuzzleStatus::PLAY;
+			_scheduleManager->scheduleOnce(TIME_SLIDE, [this]() {
+				_status = SlidePuzzleStatus::PLAY;
+			});
 		}
 	}
 
 	void SlidePuzzleModel::check() {
 		if (_status == SlidePuzzleStatus::PLAY && isCompleted()) {
 			_status = SlidePuzzleStatus::COMPLETE;
-			emitComplete();
+			_scheduleManager->scheduleOnce(TIME_SLIDE, [this]() {
+				emitComplete();
+			});
 		}
 	}
 	

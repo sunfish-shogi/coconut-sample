@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09053B1818819D74002B8725 /* NetworkTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09053B1118819D74002B8725 /* NetworkTestController.cpp */; };
+		09053B1918819D74002B8725 /* NetworkTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09053B1318819D74002B8725 /* NetworkTestModel.cpp */; };
+		09053B1A18819D74002B8725 /* NetworkTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09053B1618819D74002B8725 /* NetworkTestView.cpp */; };
 		093938E6187E6AC700433FAA /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393893187E6AC600433FAA /* GameManager.cpp */; };
 		093938E7187E6AC700433FAA /* GestureTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393897187E6AC600433FAA /* GestureTestController.cpp */; };
 		093938E8187E6AC700433FAA /* GestureTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09393899187E6AC600433FAA /* GestureTestModel.cpp */; };
 		093938E9187E6AC700433FAA /* GestureTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939389C187E6AC600433FAA /* GestureTestView.cpp */; };
-		093938EA187E6AC700433FAA /* NetworkTestController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0939389F187E6AC600433FAA /* NetworkTestController.cpp */; };
-		093938EB187E6AC700433FAA /* NetworkTestModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938A1187E6AC600433FAA /* NetworkTestModel.cpp */; };
-		093938EC187E6AC700433FAA /* NetworkTestView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938A4187E6AC700433FAA /* NetworkTestView.cpp */; };
 		093938ED187E6AC700433FAA /* OverlayController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938A8187E6AC700433FAA /* OverlayController.cpp */; };
 		093938EE187E6AC700433FAA /* OverlayModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938AA187E6AC700433FAA /* OverlayModel.cpp */; };
 		093938EF187E6AC700433FAA /* OverlayView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093938AD187E6AC700433FAA /* OverlayView.cpp */; };
@@ -302,6 +302,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09053B1118819D74002B8725 /* NetworkTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestController.cpp; sourceTree = "<group>"; };
+		09053B1218819D74002B8725 /* NetworkTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestController.h; sourceTree = "<group>"; };
+		09053B1318819D74002B8725 /* NetworkTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestModel.cpp; sourceTree = "<group>"; };
+		09053B1418819D74002B8725 /* NetworkTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestModel.h; sourceTree = "<group>"; };
+		09053B1518819D74002B8725 /* NetworkTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestModule.h; sourceTree = "<group>"; };
+		09053B1618819D74002B8725 /* NetworkTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestView.cpp; sourceTree = "<group>"; };
+		09053B1718819D74002B8725 /* NetworkTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestView.h; sourceTree = "<group>"; };
 		09393892187E6AC600433FAA /* Resolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resolution.h; sourceTree = "<group>"; };
 		09393893187E6AC600433FAA /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameManager.cpp; path = ../Classes/GameManager.cpp; sourceTree = "<group>"; };
 		09393894187E6AC600433FAA /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = ../Classes/GameManager.h; sourceTree = "<group>"; };
@@ -312,13 +319,6 @@
 		0939389B187E6AC600433FAA /* GestureTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTestModule.h; sourceTree = "<group>"; };
 		0939389C187E6AC600433FAA /* GestureTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureTestView.cpp; sourceTree = "<group>"; };
 		0939389D187E6AC600433FAA /* GestureTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTestView.h; sourceTree = "<group>"; };
-		0939389F187E6AC600433FAA /* NetworkTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestController.cpp; sourceTree = "<group>"; };
-		093938A0187E6AC600433FAA /* NetworkTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestController.h; sourceTree = "<group>"; };
-		093938A1187E6AC600433FAA /* NetworkTestModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestModel.cpp; sourceTree = "<group>"; };
-		093938A2187E6AC700433FAA /* NetworkTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestModel.h; sourceTree = "<group>"; };
-		093938A3187E6AC700433FAA /* NetworkTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestModule.h; sourceTree = "<group>"; };
-		093938A4187E6AC700433FAA /* NetworkTestView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkTestView.cpp; sourceTree = "<group>"; };
-		093938A5187E6AC700433FAA /* NetworkTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestView.h; sourceTree = "<group>"; };
 		093938A8187E6AC700433FAA /* OverlayController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayController.cpp; sourceTree = "<group>"; };
 		093938A9187E6AC700433FAA /* OverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayController.h; sourceTree = "<group>"; };
 		093938AA187E6AC700433FAA /* OverlayModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayModel.cpp; sourceTree = "<group>"; };
@@ -466,6 +466,7 @@
 		09393974187E6BCF00433FAA /* BaseTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTileView.h; sourceTree = "<group>"; };
 		09393975187E6BCF00433FAA /* SimpleTileView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleTileView.cpp; sourceTree = "<group>"; };
 		09393976187E6BCF00433FAA /* SimpleTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTileView.h; sourceTree = "<group>"; };
+		099577431882E62D007FE435 /* SlidePuzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePuzzle.h; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
@@ -620,13 +621,13 @@
 		0939389E187E6AC600433FAA /* NetworkTest */ = {
 			isa = PBXGroup;
 			children = (
-				0939389F187E6AC600433FAA /* NetworkTestController.cpp */,
-				093938A0187E6AC600433FAA /* NetworkTestController.h */,
-				093938A1187E6AC600433FAA /* NetworkTestModel.cpp */,
-				093938A2187E6AC700433FAA /* NetworkTestModel.h */,
-				093938A3187E6AC700433FAA /* NetworkTestModule.h */,
-				093938A4187E6AC700433FAA /* NetworkTestView.cpp */,
-				093938A5187E6AC700433FAA /* NetworkTestView.h */,
+				09053B1118819D74002B8725 /* NetworkTestController.cpp */,
+				09053B1218819D74002B8725 /* NetworkTestController.h */,
+				09053B1318819D74002B8725 /* NetworkTestModel.cpp */,
+				09053B1418819D74002B8725 /* NetworkTestModel.h */,
+				09053B1518819D74002B8725 /* NetworkTestModule.h */,
+				09053B1618819D74002B8725 /* NetworkTestView.cpp */,
+				09053B1718819D74002B8725 /* NetworkTestView.h */,
 			);
 			path = NetworkTest;
 			sourceTree = "<group>";
@@ -678,6 +679,7 @@
 			isa = PBXGroup;
 			children = (
 				093938BF187E6AC700433FAA /* Array2d */,
+				099577431882E62D007FE435 /* SlidePuzzle.h */,
 				093938C3187E6AC700433FAA /* SlidePuzzleController.cpp */,
 				093938C4187E6AC700433FAA /* SlidePuzzleController.h */,
 				093938C5187E6AC700433FAA /* SlidePuzzleModel.cpp */,
@@ -1387,6 +1389,7 @@
 				09393990187E6BCF00433FAA /* ScaleToX.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				093938F2187E6AC700433FAA /* OverlayTestView.cpp in Sources */,
+				09053B1818819D74002B8725 /* NetworkTestController.cpp in Sources */,
 				093938F6187E6AC700433FAA /* Position.cpp in Sources */,
 				09393900187E6AC700433FAA /* TransTestController.cpp in Sources */,
 				09393996187E6BCF00433FAA /* MvcModule.cpp in Sources */,
@@ -1398,15 +1401,15 @@
 				093938E8187E6AC700433FAA /* GestureTestModel.cpp in Sources */,
 				0939399A187E6BCF00433FAA /* ImageManager.cpp in Sources */,
 				09393992187E6BCF00433FAA /* SlideIn.cpp in Sources */,
+				09053B1918819D74002B8725 /* NetworkTestModel.cpp in Sources */,
 				093938F3187E6AC700433FAA /* ScheduleTestController.cpp in Sources */,
 				0939399B187E6BCF00433FAA /* SoundManager.cpp in Sources */,
 				093938FD187E6AC700433FAA /* TransEndController.cpp in Sources */,
 				093939A5187E6BCF00433FAA /* Button.cpp in Sources */,
 				093939AE187E6BCF00433FAA /* StencilSlider.cpp in Sources */,
-				093938EA187E6AC700433FAA /* NetworkTestController.cpp in Sources */,
 				093938FC187E6AC700433FAA /* TitleView.cpp in Sources */,
+				09053B1A18819D74002B8725 /* NetworkTestView.cpp in Sources */,
 				093939A8187E6BCF00433FAA /* ToggleButton.cpp in Sources */,
-				093938EB187E6AC700433FAA /* NetworkTestModel.cpp in Sources */,
 				093938FB187E6AC700433FAA /* TitleModel.cpp in Sources */,
 				093938F7187E6AC700433FAA /* SlidePuzzleController.cpp in Sources */,
 				093938EF187E6AC700433FAA /* OverlayView.cpp in Sources */,
@@ -1427,7 +1430,6 @@
 				09393999187E6BCF00433FAA /* FileAlias.cpp in Sources */,
 				093939A4187E6BCF00433FAA /* BaseButton.cpp in Sources */,
 				09393994187E6BCF00433FAA /* Vibrate.cpp in Sources */,
-				093938EC187E6AC700433FAA /* NetworkTestView.cpp in Sources */,
 				093938F0187E6AC700433FAA /* OverlayTestController.cpp in Sources */,
 				09393902187E6AC700433FAA /* TransTestView.cpp in Sources */,
 				0939399D187E6BCF00433FAA /* ScheduleManager.cpp in Sources */,

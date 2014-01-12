@@ -8,6 +8,7 @@
 
 #include "SlidePuzzleView.h"
 #include "SlidePuzzleModel.h"
+#include "SlidePuzzle.h"
 #include "../../Utils/WidgetUtils.h"
 #include "../../Utils/ImageUtils.h"
 #include <coconut/utils/LayoutUtils.h>
@@ -145,7 +146,7 @@ namespace coconut_sample {
 		int tag = getTag(piece);
 		Sprite* sprite = (Sprite*)_piecesBatch->getChildByTag(tag);
 		CCASSERT(sprite, "sprite not found.");
-		sprite->runAction(MoveTo::create(0.15f, getPosition(pos)));
+		sprite->runAction(MoveTo::create(TIME_SLIDE, getPosition(pos)));
 	}
 	
 	void SlidePuzzleView::complete() {
