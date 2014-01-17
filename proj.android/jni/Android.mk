@@ -2,19 +2,25 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+include ../Libraries/cacocos/Android.mk
+
 LOCAL_MODULE := cocos2dcpp_shared
 
 LOCAL_MODULE_FILENAME := libcocos2dcpp
 
-LOCAL_SRC_FILES := hellocpp/main.cpp \
-                   ../../Classes/AppDelegate.cpp \
-                   ../../Classes/HelloWorldScene.cpp
+CLASSES_SRC_FILES := $(shell find $(LOCAL_PATH)/../../Classes -name "*.cpp")
+LOCAL_SRC_FILES := hellocpp/main.cpp
+LOCAL_SRC_FILES += $(CLASSES_SRC_FILES:$(LOCAL_PATH)/%=%)
+LOCAL_SRC_FILES += $(CACOCOS_SRC_FILES:$(LOCAL_PATH)/%=%)
 
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes \
+                	$(CACOCOS_C_INCLUDES)
 
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2dx_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static
-LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
+#LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
+LOCAL_WHOLE_STATIC_LIBRARIES += cocos_extension_static
+LOCAL_WHOLE_STATIC_LIBRARIES += cocos2dxandroid_static
 
 
 include $(BUILD_SHARED_LIBRARY)
