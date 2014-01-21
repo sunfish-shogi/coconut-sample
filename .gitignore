@@ -1,2 +1,8 @@
 proj.ios_mac/coconut_sample.xcodeproj/xcuserdata
 proj.ios_mac/coconut_sample.xcodeproj/project.xcworkspace/xcuserdata
+proj.android/bin
+proj.android/gen
+proj.android/libs
+proj.android/obj
+proj.android/assets
+proj.android/local.properties
