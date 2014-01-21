@@ -1,10 +1,10 @@
 coconut-sample
 ==============
 
+Sample project for Coconut(https://github.com/sunfish-shogi/coconut).
+
 Checkout
 --------
-
-Sample project for Coconut(https://github.com/sunfish-shogi/coconut).
 
 ```
 git clone https://github.com/sunfish-shogi/coconut-sample.git
